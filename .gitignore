@@ -1,0 +1,24 @@
+.DS_Store
+/.idea/
+/precheck_results/
+*/tmp
+*.hex*
+*.lst
+*.vcd
+*.gtkw
+/env
+/venv/
+/venv-cocotb/
+/caravel/
+runs/
+/dependencies/
+/mgmt_core_wrapper/
+/logs
+lvs_results/
+__pycache__/
+
+# Simulation artifacts
+*.vvp
+*.log
+a.out
+tb_sim
