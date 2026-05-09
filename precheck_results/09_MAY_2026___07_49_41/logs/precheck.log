@@ -1,0 +1,22 @@
+2026-05-09 07:49:42 [INFO] Extracting compressed files in: /tmp/tmplp50_0bl/repo
+2026-05-09 07:49:45 [INFO] make uncompress produced 3 gds/*.gds file(s): openframe_project_wrapper.gds, vccd1_connection.gds, vssd1_connection.gds (make exit 0)
+2026-05-09 07:49:45 [INFO] Project type: openframe
+2026-05-09 07:49:46 [INFO] GDS hash (openframe_project_wrapper): bf8a78110028f44147f2d29e3903c493368b386c
+2026-05-09 07:49:46 [INFO] Tools: KLayout v0.29.2 | Magic v8.3.471
+2026-05-09 07:49:46 [INFO] PDK: SKY130A unknown
+2026-05-09 07:49:47 [INFO] Running 2 checks: [xor, lvs]
+2026-05-09 07:54:49 [ERROR] XOR total file not found: /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/logs/xor_check.total
+2026-05-09 07:54:49 [INFO] Loading LVS environment from /tmp/tmplp50_0bl/repo/lvs/openframe_project_wrapper/lvs_config.json
+2026-05-09 07:54:49 [INFO] Loading LVS environment from /usr/local/lib/python3.9/site-packages/cf_precheck/be_checks/tech/sky130A/lvs_config.base.json
+2026-05-09 07:54:49 [INFO] EXTRACT_FLATGLOB: *sky130_fd_pr__*[A-Z]* 
+2026-05-09 07:54:49 [INFO] EXTRACT_ABSTRACT: *__fill_* *__fakediode_* *__tapvpwrvgnd_* 
+2026-05-09 07:54:49 [INFO] EXTRACT_CREATE_SUBCUT: 
+2026-05-09 07:54:49 [INFO] LVS_FLATTEN: *vccd1_connection* *vssd1_connection*
+2026-05-09 07:54:49 [INFO] LVS_NOFLATTEN: 
+2026-05-09 07:54:49 [INFO] LVS_IGNORE: 
+2026-05-09 07:54:49 [INFO] LVS_SPICE_FILES: /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/*.spice 
+2026-05-09 07:54:49 [INFO] LVS_VERILOG_FILES: /tmp/tmplp50_0bl/repo/verilog/gl/vccd1_connection.v /tmp/tmplp50_0bl/repo/verilog/gl/vssd1_connection.v /tmp/tmplp50_0bl/repo/verilog/gl/openframe_project_wrapper.v
+2026-05-09 07:54:49 [INFO] LAYOUT_FILE: /tmp/tmplp50_0bl/repo/gds/openframe_project_wrapper.gds
+2026-05-09 07:54:49 [INFO] Running: run_be_checks --nooeb
+2026-05-09 07:54:49 [INFO] LVS output directory: /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41
+2026-05-09 08:04:56 [ERROR] LVS FAILED (stat=1), see /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/logs/LVS_check.log
