@@ -1,0 +1,3650 @@
+
+TOP SOURCE: openframe_project_wrapper
+SOURCE FILE(S): /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice
+ /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_20_12.spice
+ /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_40_12.spice
+ /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_60_12.spice
+ /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_80_12.spice
+ /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_12.spice
+ /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_2.spice
+ /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_4.spice
+ /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_8.spice
+ /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+ /tmp/tmplp50_0bl/repo/verilog/gl/vccd1_connection.v
+ /tmp/tmplp50_0bl/repo/verilog/gl/vssd1_connection.v
+ /tmp/tmplp50_0bl/repo/verilog/gl/openframe_project_wrapper.v
+TOP LAYOUT: openframe_project_wrapper
+LAYOUT FILE: /tmp/tmplp50_0bl/repo/gds/openframe_project_wrapper.gds
+EXTRACT_FLATGLOB: *sky130_fd_pr__*[A-Z]*
+EXTRACT_ABSTRACT: *__fill_*
+ *__fakediode_*
+ *__tapvpwrvgnd_*
+LVS_FLATTEN: *vccd1_connection*
+ *vssd1_connection*
+LVS_NOFLATTEN: 
+LVS_IGNORE: 
+WORK_ROOT   : /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/tmp
+LOG_ROOT    : /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/logs
+SIGNOFF_ROOT: /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/outputs/reports
+ 
+Running hierarchical comparison between verilog and layout...
+Creating /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/tmp/verilog.cells from the following files...
+	/tmp/tmplp50_0bl/repo/verilog/gl/vccd1_connection.v
+	/tmp/tmplp50_0bl/repo/verilog/gl/vssd1_connection.v
+	/tmp/tmplp50_0bl/repo/verilog/gl/openframe_project_wrapper.v
+[INFO] Changing from /tmp/tmplp50_0bl/repo/gds/openframe_project_wrapper.gds
+	to /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/tmp/layout.txt
+Hierarchy check for openframe_project_wrapper passed.
+ 
+Running LVS...
+TOP SOURCE: openframe_project_wrapper
+SOURCE FILE(S): /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice
+ /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_20_12.spice
+ /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_40_12.spice
+ /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_60_12.spice
+ /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_80_12.spice
+ /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_12.spice
+ /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_2.spice
+ /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_4.spice
+ /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_8.spice
+ /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+ /tmp/tmplp50_0bl/repo/verilog/gl/vccd1_connection.v
+ /tmp/tmplp50_0bl/repo/verilog/gl/vssd1_connection.v
+ /tmp/tmplp50_0bl/repo/verilog/gl/openframe_project_wrapper.v
+TOP LAYOUT: openframe_project_wrapper
+LAYOUT FILE: /tmp/tmplp50_0bl/repo/gds/openframe_project_wrapper.gds
+EXTRACT_FLATGLOB: *sky130_fd_pr__*[A-Z]*
+EXTRACT_ABSTRACT: *__fill_*
+ *__fakediode_*
+ *__tapvpwrvgnd_*
+LVS_FLATTEN: *vccd1_connection*
+ *vssd1_connection*
+LVS_NOFLATTEN: 
+LVS_IGNORE: 
+WORK_ROOT   : /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/tmp
+LOG_ROOT    : /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/logs
+SIGNOFF_ROOT: /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/outputs/reports
+ 
+Running extract...
+TOP LAYOUT: openframe_project_wrapper
+LAYOUT FILE: /tmp/tmplp50_0bl/repo/gds/openframe_project_wrapper.gds
+EXTRACT_FLATGLOB: *sky130_fd_pr__*[A-Z]*
+EXTRACT_ABSTRACT: *__fill_*
+ *__fakediode_*
+ *__tapvpwrvgnd_*
+WORK_ROOT   : /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/tmp
+LOG_ROOT    : /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/logs
+SIGNOFF_ROOT: /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/outputs/reports
+LOG FILE: /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/logs/ext.log
+Adding subcutout style to tech file.
+/opt/pdks/sky130A/libs.tech/magic/sky130A.tech: version 1.0.493
+Extracting to /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/tmp/ext
+ 
+
+Magic 8.3 revision 471 - Compiled on Wed Apr 22 16:23:58 UTC 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design magicrc.well for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Loading tech file /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/tmp/sky130A.tech
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading "/tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/tmp/ext/abstract.tcl" from command line.
+Abstracting
+CIF input style is now "sky130()"
+Abstracting /tmp/tmplp50_0bl/repo/gds/openframe_project_wrapper.gds
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: openframe_project_wrapper
+Reading "sky130_fd_sc_hd__decap_3".
+Reading "sky130_fd_sc_hd__fill_1".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "sky130_fd_sc_hd__fill_2".
+Reading "sky130_fd_sc_hd__clkbuf_16".
+Reading "sky130_fd_sc_hd__conb_1".
+Reading "sky130_fd_sc_hd__buf_8".
+Reading "sky130_fd_sc_hd__buf_6".
+Reading "sky130_fd_sc_hd__buf_2".
+Reading "sky130_fd_sc_hd__diode_2".
+Reading "sky130_fd_sc_hd__mux2_1".
+Reading "sky130_fd_sc_hd__buf_4".
+Reading "sky130_fd_sc_hd__clkbuf_2".
+Reading "sky130_fd_sc_hd__nand2b_4".
+Reading "sky130_fd_sc_hd__mux2_8".
+Reading "sky130_fd_sc_hd__buf_12".
+Reading "sky130_fd_sc_hd__and2_4".
+Reading "sky130_fd_sc_hd__and2_2".
+Reading "sky130_fd_sc_hd__mux2_2".
+Reading "sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "sky130_fd_sc_hd__buf_1".
+Reading "sky130_fd_sc_hd__nand2b_2".
+Reading "sky130_fd_sc_hd__clkbuf_4".
+Reading "sky130_fd_sc_hd__mux2_4".
+Reading "PE_sky130_fd_sc_hd__decap_3".
+Reading "PE_sky130_fd_sc_hd__buf_4".
+Reading "PE_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "PE_sky130_fd_sc_hd__fill_1".
+Reading "PE_sky130_fd_sc_hd__fill_2".
+Reading "PE_sky130_fd_sc_hd__diode_2".
+Reading "PE_sky130_fd_sc_hd__buf_12".
+Reading "PE_sky130_fd_sc_hd__conb_1".
+Reading "PE_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "PE_sky130_fd_sc_hd__nor2_2".
+Reading "PE_sky130_fd_sc_hd__o21ai_2".
+Reading "PE_sky130_fd_sc_hd__buf_2".
+Reading "PE_sky130_fd_sc_hd__nand2_2".
+Reading "PE_sky130_fd_sc_hd__a31o_2".
+Reading "PE_sky130_fd_sc_hd__o211a_2".
+Reading "PE_sky130_fd_sc_hd__or2_2".
+Reading "PE_sky130_fd_sc_hd__o221a_2".
+Reading "PE_sky130_fd_sc_hd__clkbuf_4".
+Reading "PE_sky130_fd_sc_hd__o31a_2".
+Reading "PE_sky130_fd_sc_hd__a211o_2".
+Reading "PE_sky130_fd_sc_hd__nor2_4".
+Reading "PE_sky130_fd_sc_hd__inv_2".
+Reading "PE_sky130_fd_sc_hd__a21oi_2".
+Reading "PE_sky130_fd_sc_hd__o21a_2".
+Reading "PE_sky130_fd_sc_hd__and3_2".
+Reading "PE_sky130_fd_sc_hd__a22o_2".
+Reading "PE_sky130_fd_sc_hd__mux2_1".
+Reading "PE_sky130_fd_sc_hd__buf_6".
+Reading "PE_sky130_fd_sc_hd__and2_2".
+Reading "PE_sky130_fd_sc_hd__a311o_2".
+Reading "PE_sky130_fd_sc_hd__a32o_2".
+Reading "PE_sky130_fd_sc_hd__or3_2".
+Reading "PE_sky130_fd_sc_hd__a21o_2".
+Reading "PE_sky130_fd_sc_hd__o311a_2".
+Reading "PE_sky130_fd_sc_hd__o22a_2".
+Reading "PE_sky130_fd_sc_hd__o32a_2".
+Reading "PE_sky130_fd_sc_hd__or4_2".
+Reading "PE_sky130_fd_sc_hd__a41o_2".
+Reading "PE_sky130_fd_sc_hd__and3b_2".
+Reading "PE_sky130_fd_sc_hd__nor2_1".
+Reading "PE_sky130_fd_sc_hd__o211ai_2".
+Reading "PE_sky130_fd_sc_hd__a31oi_2".
+Reading "PE_sky130_fd_sc_hd__or4b_2".
+Reading "PE_sky130_fd_sc_hd__o22ai_2".
+Reading "PE_sky130_fd_sc_hd__and4b_2".
+Reading "PE_sky130_fd_sc_hd__clkbuf_8".
+Reading "PE_sky130_fd_sc_hd__nor3_2".
+Reading "PE_sky130_fd_sc_hd__nor4_2".
+Reading "PE_sky130_fd_sc_hd__clkbuf_2".
+Reading "PE_sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "PE_sky130_fd_sc_hd__dfrtp_2".
+Reading "PE_sky130_fd_sc_hd__a2bb2o_2".
+Reading "PE_sky130_fd_sc_hd__a21bo_2".
+Reading "PE_sky130_fd_sc_hd__dfxtp_2".
+Reading "PE_sky130_fd_sc_hd__a2111o_2".
+Reading "PE_sky130_fd_sc_hd__or3b_2".
+Reading "PE_sky130_fd_sc_hd__o2111a_2".
+Reading "PE_sky130_fd_sc_hd__o2bb2a_2".
+Reading "PE_sky130_fd_sc_hd__a221o_2".
+Reading "PE_sky130_fd_sc_hd__nand3_2".
+Reading "PE_sky130_fd_sc_hd__and4_2".
+Reading "PE_sky130_fd_sc_hd__a21oi_4".
+Reading "PE_sky130_fd_sc_hd__a2111oi_2".
+Reading "PE_sky130_fd_sc_hd__or4bb_2".
+Reading "PE_sky130_fd_sc_hd__a211oi_2".
+Reading "PE_sky130_fd_sc_hd__clkinv_2".
+Reading "PE_sky130_fd_sc_hd__a311oi_2".
+Reading "PE_sky130_fd_sc_hd__xnor2_2".
+Reading "PE_sky130_fd_sc_hd__o221ai_2".
+Reading "PE_sky130_fd_sc_hd__and2b_2".
+Reading "PE_sky130_fd_sc_hd__bufinv_16".
+Reading "PE_sky130_fd_sc_hd__nand2b_2".
+Reading "PE_sky130_fd_sc_hd__dfstp_2".
+Reading "PE_sky130_fd_sc_hd__buf_1".
+Reading "PE_sky130_fd_sc_hd__clkinvlp_4".
+Reading "PE_sky130_fd_sc_hd__a22oi_2".
+Reading "PE_sky130_fd_sc_hd__inv_8".
+Reading "PE_sky130_fd_sc_hd__clkinv_8".
+Reading "PE_sky130_fd_sc_hd__nor3b_2".
+Reading "PE_sky130_fd_sc_hd__mux4_2".
+Reading "PE_sky130_fd_sc_hd__buf_8".
+Reading "PE_sky130_fd_sc_hd__o21bai_2".
+Reading "PE_sky130_fd_sc_hd__o31ai_2".
+Reading "PE_sky130_fd_sc_hd__o21ba_2".
+Reading "PE_sky130_fd_sc_hd__xor2_2".
+Reading "PE_sky130_fd_sc_hd__inv_6".
+Reading "PE_sky130_fd_sc_hd__and4bb_2".
+Reading "PE_sky130_fd_sc_hd__inv_12".
+Reading "PE_sky130_fd_sc_hd__a221oi_2".
+Reading "PE_sky130_fd_sc_hd__nand3b_2".
+Reading "PE_sky130_fd_sc_hd__a41oi_2".
+Reading "PE_sky130_fd_sc_hd__nor4b_2".
+Reading "PE_sky130_fd_sc_hd__a21boi_2".
+Reading "PE_sky130_fd_sc_hd__nand4_2".
+Reading "PE_sky130_fd_sc_hd__clkinv_1".
+Reading "PE_sky130_fd_sc_hd__o21ai_4".
+Reading "PE_sky130_fd_sc_hd__o2111ai_2".
+Reading "PE_sky130_fd_sc_hd__nor4_1".
+Reading "PE_sky130_fd_sc_hd__a32oi_2".
+Reading "PE_sky130_fd_sc_hd__clkbuf_16".
+Reading "PE_sky130_fd_sc_hd__clkbuf_1".
+Reading "PE_sky130_fd_sc_hd__a2111oi_1".
+CIF file read warning: CIF style sky130(): units rescaled by factor of 5 / 1
+CIF file read warning: Input off lambda grid by 2/5; snapped to grid.
+Reading "PE_sky130_fd_sc_hd__nor3_4".
+Reading "PE_sky130_fd_sc_hd__o2bb2ai_2".
+Reading "PE_sky130_fd_sc_hd__o41a_2".
+Reading "PE_sky130_fd_sc_hd__dfxtp_4".
+Reading "PE_sky130_fd_sc_hd__clkinv_4".
+Reading "PE_sky130_fd_sc_hd__o32ai_2".
+Reading "project_macro_0_0".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+Reading "XG_sky130_fd_sc_hd__a311oi_2".
+Reading "XG_sky130_fd_sc_hd__and3_4".
+Reading "XG_sky130_fd_sc_hd__o2111ai_4".
+Reading "XG_sky130_fd_sc_hd__a2bb2oi_2".
+Reading "XG_sky130_fd_sc_hd__nand2b_4".
+Reading "XG_sky130_fd_sc_hd__dfstp_4".
+Reading "XG_sky130_fd_sc_hd__xor2_4".
+Reading "XG_sky130_fd_sc_hd__a211o_2".
+Reading "XG_sky130_fd_sc_hd__nor2b_4".
+Reading "XG_sky130_fd_sc_hd__o2111ai_2".
+Reading "XG_sky130_fd_sc_hd__inv_8".
+Reading "XG_sky130_fd_sc_hd__inv_12".
+Reading "XG_sky130_fd_sc_hd__a22oi_2".
+Reading "XG_sky130_fd_sc_hd__o2bb2a_2".
+Reading "XG_sky130_fd_sc_hd__o211ai_4".
+Reading "XG_sky130_fd_sc_hd__a31oi_4".
+Reading "XG_sky130_fd_sc_hd__o2bb2ai_2".
+Reading "XG_sky130_fd_sc_hd__o21ai_4".
+Reading "XG_sky130_fd_sc_hd__a31oi_2".
+Reading "XG_sky130_fd_sc_hd__o21bai_4".
+Reading "XG_sky130_fd_sc_hd__a21boi_4".
+Reading "XG_sky130_fd_sc_hd__xnor2_4".
+Reading "XG_sky130_fd_sc_hd__or4_4".
+Reading "XG_sky130_fd_sc_hd__o21ba_2".
+Reading "XG_sky130_fd_sc_hd__or3_4".
+Reading "XG_sky130_fd_sc_hd__a21oi_4".
+Reading "XG_sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "XG_sky130_fd_sc_hd__o221a_2".
+Reading "XG_sky130_fd_sc_hd__o211ai_2".
+Reading "XG_sky130_fd_sc_hd__and2_4".
+Reading "XG_sky130_fd_sc_hd__nor2b_2".
+Reading "XG_sky130_fd_sc_hd__o22ai_2".
+Reading "XG_sky130_fd_sc_hd__nand3_4".
+Reading "XG_sky130_fd_sc_hd__clkinv_2".
+Reading "XG_sky130_fd_sc_hd__clkinv_1".
+Reading "XG_sky130_fd_sc_hd__nand2b_2".
+Reading "XG_sky130_fd_sc_hd__diode_2".
+Reading "XG_sky130_fd_sc_hd__nand3_1".
+Reading "XG_sky130_fd_sc_hd__or2_4".
+Reading "XG_sky130_fd_sc_hd__a21bo_2".
+Reading "XG_sky130_fd_sc_hd__clkinvlp_4".
+Reading "XG_sky130_fd_sc_hd__nand3b_4".
+Reading "XG_sky130_fd_sc_hd__bufinv_8".
+Reading "XG_sky130_fd_sc_hd__inv_6".
+Reading "XG_sky130_fd_sc_hd__clkbuf_16".
+Reading "XG_sky130_fd_sc_hd__bufinv_16".
+Reading "XG_sky130_fd_sc_hd__nor2_8".
+Reading "XG_sky130_fd_sc_hd__nand2_4".
+Reading "XG_sky130_fd_sc_hd__nand2_8".
+Reading "XG_sky130_fd_sc_hd__nor2_4".
+Reading "XG_sky130_fd_sc_hd__o21bai_2".
+Reading "XG_sky130_fd_sc_hd__and4b_2".
+Reading "XG_sky130_fd_sc_hd__o21a_2".
+Reading "XG_sky130_fd_sc_hd__buf_8".
+Reading "XG_sky130_fd_sc_hd__a32o_2".
+Reading "XG_sky130_fd_sc_hd__o2111a_2".
+Reading "XG_sky130_fd_sc_hd__inv_4".
+Reading "XG_sky130_fd_sc_hd__a21boi_2".
+Reading "XG_sky130_fd_sc_hd__clkbuf_1".
+Reading "XG_sky130_fd_sc_hd__a2111oi_2".
+Reading "XG_sky130_fd_sc_hd__xnor2_2".
+Reading "XG_sky130_fd_sc_hd__buf_6".
+Reading "XG_sky130_fd_sc_hd__or3_2".
+Reading "XG_sky130_fd_sc_hd__clkinv_4".
+Reading "XG_sky130_fd_sc_hd__o211a_2".
+Reading "XG_sky130_fd_sc_hd__clkbuf_2".
+Reading "XG_sky130_fd_sc_hd__nand3b_2".
+Reading "XG_sky130_fd_sc_hd__o311a_2".
+Reading "XG_sky130_fd_sc_hd__or4_2".
+Reading "XG_sky130_fd_sc_hd__and4_2".
+Reading "XG_sky130_fd_sc_hd__nand3_2".
+Reading "XG_sky130_fd_sc_hd__a311o_2".
+Reading "XG_sky130_fd_sc_hd__and3_2".
+Reading "XG_sky130_fd_sc_hd__nor3b_2".
+Reading "XG_sky130_fd_sc_hd__and2b_2".
+Reading "XG_sky130_fd_sc_hd__xor2_2".
+Reading "XG_sky130_fd_sc_hd__dfrtp_4".
+Reading "XG_sky130_fd_sc_hd__or3b_2".
+Reading "XG_sky130_fd_sc_hd__nor3_2".
+Reading "XG_sky130_fd_sc_hd__or2b_2".
+Reading "XG_sky130_fd_sc_hd__o21ai_2".
+Reading "XG_sky130_fd_sc_hd__o22a_2".
+Reading "XG_sky130_fd_sc_hd__a2111o_2".
+Reading "XG_sky130_fd_sc_hd__a21oi_2".
+Reading "XG_sky130_fd_sc_hd__a31o_2".
+Reading "XG_sky130_fd_sc_hd__nor2_2".
+Reading "XG_sky130_fd_sc_hd__clkbuf_8".
+Reading "XG_sky130_fd_sc_hd__clkbuf_4".
+Reading "XG_sky130_fd_sc_hd__mux2_2".
+Reading "XG_sky130_fd_sc_hd__and3b_2".
+Reading "XG_sky130_fd_sc_hd__or2_2".
+Reading "XG_sky130_fd_sc_hd__o31a_2".
+Reading "XG_sky130_fd_sc_hd__nand2_2".
+Reading "XG_sky130_fd_sc_hd__buf_1".
+Reading "XG_sky130_fd_sc_hd__dfstp_2".
+Reading "XG_sky130_fd_sc_hd__dfrtp_2".
+Reading "XG_sky130_fd_sc_hd__and2_2".
+Reading "XG_sky130_fd_sc_hd__a22o_2".
+Reading "XG_sky130_fd_sc_hd__inv_2".
+Reading "XG_sky130_fd_sc_hd__a221o_2".
+Reading "XG_sky130_fd_sc_hd__a21o_2".
+Reading "XG_sky130_fd_sc_hd__buf_2".
+Reading "XG_sky130_fd_sc_hd__buf_12".
+Reading "XG_sky130_fd_sc_hd__buf_4".
+Reading "XG_sky130_fd_sc_hd__fill_2".
+Reading "XG_sky130_fd_sc_hd__conb_1".
+Reading "XG_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "XG_sky130_fd_sc_hd__fill_1".
+Reading "XG_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "XG_sky130_fd_sc_hd__decap_3".
+Reading "project_macro_0_1".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+    225000 uses
+Reading "BM_sky130_fd_sc_hd__o221ai_4".
+Reading "BM_sky130_fd_sc_hd__nor2_1".
+Reading "BM_sky130_fd_sc_hd__o21ai_1".
+Reading "BM_sky130_fd_sc_hd__clkbuf_16".
+Reading "BM_sky130_fd_sc_hd__o31ai_2".
+Reading "BM_sky130_fd_sc_hd__clkinv_4".
+Reading "BM_sky130_fd_sc_hd__o311a_2".
+Reading "BM_sky130_fd_sc_hd__o221ai_2".
+Reading "BM_sky130_fd_sc_hd__clkinvlp_4".
+Reading "BM_sky130_fd_sc_hd__a221oi_4".
+Reading "BM_sky130_fd_sc_hd__a31o_4".
+Reading "BM_sky130_fd_sc_hd__a31oi_2".
+Reading "BM_sky130_fd_sc_hd__o2111ai_2".
+Reading "BM_sky130_fd_sc_hd__buf_8".
+Reading "BM_sky130_fd_sc_hd__nor2_8".
+Reading "BM_sky130_fd_sc_hd__dfrtp_4".
+Reading "BM_sky130_fd_sc_hd__nand2_8".
+Reading "BM_sky130_fd_sc_hd__a311oi_2".
+Reading "BM_sky130_fd_sc_hd__nand3_4".
+Reading "BM_sky130_fd_sc_hd__inv_4".
+Reading "BM_sky130_fd_sc_hd__a311o_2".
+Reading "BM_sky130_fd_sc_hd__o2bb2ai_2".
+Reading "BM_sky130_fd_sc_hd__o21bai_2".
+Reading "BM_sky130_fd_sc_hd__and2_4".
+Reading "BM_sky130_fd_sc_hd__o22ai_2".
+Reading "BM_sky130_fd_sc_hd__nand3b_2".
+Reading "BM_sky130_fd_sc_hd__o41a_2".
+Reading "BM_sky130_fd_sc_hd__a21oi_4".
+Reading "BM_sky130_fd_sc_hd__o211a_2".
+Reading "BM_sky130_fd_sc_hd__bufinv_16".
+Reading "BM_sky130_fd_sc_hd__nand2b_4".
+Reading "BM_sky130_fd_sc_hd__mux2_4".
+Reading "BM_sky130_fd_sc_hd__a21boi_4".
+Reading "BM_sky130_fd_sc_hd__nand2_4".
+Reading "BM_sky130_fd_sc_hd__nand3b_4".
+Reading "BM_sky130_fd_sc_hd__a21boi_2".
+Reading "BM_sky130_fd_sc_hd__or2_4".
+Reading "BM_sky130_fd_sc_hd__inv_16".
+Reading "BM_sky130_fd_sc_hd__clkinv_8".
+Reading "BM_sky130_fd_sc_hd__o211ai_2".
+Reading "BM_sky130_fd_sc_hd__inv_8".
+Reading "BM_sky130_fd_sc_hd__o21ba_2".
+Reading "BM_sky130_fd_sc_hd__o32ai_2".
+Reading "BM_sky130_fd_sc_hd__a41o_2".
+Reading "BM_sky130_fd_sc_hd__xor2_2".
+Reading "BM_sky130_fd_sc_hd__inv_12".
+Reading "BM_sky130_fd_sc_hd__xnor2_2".
+Reading "BM_sky130_fd_sc_hd__or4b_4".
+Reading "BM_sky130_fd_sc_hd__o41ai_2".
+Reading "BM_sky130_fd_sc_hd__nor2_4".
+Reading "BM_sky130_fd_sc_hd__o22a_2".
+Reading "BM_sky130_fd_sc_hd__a21oi_2".
+Reading "BM_sky130_fd_sc_hd__a2111oi_2".
+Reading "BM_sky130_fd_sc_hd__or4_4".
+Reading "BM_sky130_fd_sc_hd__and4b_2".
+Reading "BM_sky130_fd_sc_hd__or3_4".
+Reading "BM_sky130_fd_sc_hd__clkbuf_1".
+Reading "BM_sky130_fd_sc_hd__clkinv_2".
+Reading "BM_sky130_fd_sc_hd__o32a_2".
+Reading "BM_sky130_fd_sc_hd__nor3_2".
+Reading "BM_sky130_fd_sc_hd__and2_2".
+Reading "BM_sky130_fd_sc_hd__a211oi_2".
+Reading "BM_sky130_fd_sc_hd__nand3_2".
+Reading "BM_sky130_fd_sc_hd__a2111o_2".
+Reading "BM_sky130_fd_sc_hd__o21ai_4".
+Reading "BM_sky130_fd_sc_hd__or3b_2".
+Reading "BM_sky130_fd_sc_hd__buf_6".
+Reading "BM_sky130_fd_sc_hd__a2bb2o_2".
+Reading "BM_sky130_fd_sc_hd__a31o_2".
+Reading "BM_sky130_fd_sc_hd__or4_2".
+Reading "BM_sky130_fd_sc_hd__clkbuf_2".
+Reading "BM_sky130_fd_sc_hd__and2b_2".
+Reading "BM_sky130_fd_sc_hd__o2111a_2".
+Reading "BM_sky130_fd_sc_hd__o221a_2".
+Reading "BM_sky130_fd_sc_hd__a21o_2".
+Reading "BM_sky130_fd_sc_hd__o2bb2a_2".
+Reading "BM_sky130_fd_sc_hd__a32o_2".
+Reading "BM_sky130_fd_sc_hd__a21bo_2".
+Reading "BM_sky130_fd_sc_hd__o31a_2".
+Reading "BM_sky130_fd_sc_hd__and4_2".
+Reading "BM_sky130_fd_sc_hd__a22oi_2".
+Reading "BM_sky130_fd_sc_hd__o21ai_2".
+Reading "BM_sky130_fd_sc_hd__a221oi_2".
+Reading "BM_sky130_fd_sc_hd__a221o_2".
+Reading "BM_sky130_fd_sc_hd__or2b_2".
+Reading "BM_sky130_fd_sc_hd__or3_2".
+Reading "BM_sky130_fd_sc_hd__nand2b_2".
+Reading "BM_sky130_fd_sc_hd__or2_2".
+Reading "BM_sky130_fd_sc_hd__clkbuf_4".
+Reading "BM_sky130_fd_sc_hd__a22o_2".
+Reading "BM_sky130_fd_sc_hd__a211o_2".
+Reading "BM_sky130_fd_sc_hd__and3_2".
+Reading "BM_sky130_fd_sc_hd__and3b_2".
+Reading "BM_sky130_fd_sc_hd__nor2_2".
+Reading "BM_sky130_fd_sc_hd__clkbuf_8".
+Reading "BM_sky130_fd_sc_hd__o21a_2".
+Reading "BM_sky130_fd_sc_hd__nand2_2".
+Reading "BM_sky130_fd_sc_hd__inv_2".
+Reading "BM_sky130_fd_sc_hd__inv_6".
+Reading "BM_sky130_fd_sc_hd__dfxtp_2".
+Reading "BM_sky130_fd_sc_hd__mux2_2".
+Reading "BM_sky130_fd_sc_hd__buf_2".
+Reading "BM_sky130_fd_sc_hd__mux2_1".
+Reading "BM_sky130_fd_sc_hd__buf_1".
+Reading "BM_sky130_fd_sc_hd__dfrtp_2".
+Reading "BM_sky130_fd_sc_hd__buf_12".
+Reading "BM_sky130_fd_sc_hd__buf_4".
+Reading "BM_sky130_fd_sc_hd__conb_1".
+Reading "BM_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "BM_sky130_fd_sc_hd__dfstp_2".
+Reading "BM_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "BM_sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "BM_sky130_fd_sc_hd__fill_1".
+Reading "BM_sky130_fd_sc_hd__diode_2".
+Reading "BM_sky130_fd_sc_hd__fill_2".
+Reading "BM_sky130_fd_sc_hd__decap_3".
+Reading "project_macro_0_2".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+Reading "sky130_fd_sc_hd__dlclkp_4".
+Reading "sky130_fd_sc_hd__dfxtp_2".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "sky130_fd_sc_hd__dfrtp_4".
+Reading "sky130_fd_sc_hd__clkbuf_8".
+Reading "sky130_fd_sc_hd__dfrtp_2".
+Reading "sky130_fd_sc_hd__dfxtp_4".
+Reading "sky130_fd_sc_hd__mux4_2".
+Reading "sky130_fd_sc_hd__a22o_2".
+Reading "sky130_fd_sc_hd__or4b_2".
+Reading "WP_sky130_fd_sc_hd__decap_3".
+Reading "WP_sky130_fd_sc_hd__fill_2".
+Reading "WP_sky130_fd_sc_hd__diode_2".
+Reading "WP_sky130_fd_sc_hd__buf_4".
+Reading "WP_sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "WP_sky130_fd_sc_hd__fill_1".
+Reading "WP_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "WP_sky130_fd_sc_hd__conb_1".
+Reading "WP_sky130_fd_sc_hd__buf_1".
+Reading "WP_sky130_fd_sc_hd__buf_12".
+Reading "WP_sky130_fd_sc_hd__mux2_1".
+Reading "WP_sky130_fd_sc_hd__dfxtp_2".
+Reading "WP_sky130_fd_sc_hd__clkbuf_4".
+Reading "WP_sky130_fd_sc_hd__mux4_2".
+Reading "WP_sky130_fd_sc_hd__clkbuf_8".
+Reading "WP_sky130_fd_sc_hd__bufinv_16".
+Reading "WP_sky130_fd_sc_hd__buf_2".
+Reading "WP_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "WP_sky130_fd_sc_hd__clkinv_2".
+Reading "WP_sky130_fd_sc_hd__clkbuf_1".
+Reading "WP_sky130_fd_sc_hd__clkbuf_2".
+Reading "WP_sky130_fd_sc_hd__buf_6".
+Reading "WP_sky130_fd_sc_hd__clkbuf_16".
+Reading "WP_sky130_fd_sc_hd__clkinvlp_4".
+Reading "WP_sky130_fd_sc_hd__inv_6".
+Reading "WP_sky130_fd_sc_hd__dfrtp_2".
+Reading "WP_sky130_fd_sc_hd__or3_2".
+Reading "WP_sky130_fd_sc_hd__or2_4".
+Reading "WP_sky130_fd_sc_hd__mux2_2".
+Reading "WP_sky130_fd_sc_hd__nand2_2".
+Reading "WP_sky130_fd_sc_hd__a21o_2".
+Reading "WP_sky130_fd_sc_hd__a211oi_2".
+Reading "WP_sky130_fd_sc_hd__or3b_2".
+Reading "WP_sky130_fd_sc_hd__and3_4".
+Reading "WP_sky130_fd_sc_hd__a31o_2".
+Reading "WP_sky130_fd_sc_hd__and4b_2".
+Reading "WP_sky130_fd_sc_hd__nor2_2".
+Reading "WP_sky130_fd_sc_hd__a211o_2".
+Reading "WP_sky130_fd_sc_hd__o22a_2".
+Reading "WP_sky130_fd_sc_hd__or2_2".
+Reading "WP_sky130_fd_sc_hd__o211ai_2".
+Reading "WP_sky130_fd_sc_hd__or3b_4".
+Reading "WP_sky130_fd_sc_hd__and2b_2".
+Reading "WP_sky130_fd_sc_hd__xnor2_2".
+Reading "WP_sky130_fd_sc_hd__o211a_2".
+Reading "WP_sky130_fd_sc_hd__or3_4".
+Reading "WP_sky130_fd_sc_hd__a21bo_2".
+Reading "WP_sky130_fd_sc_hd__a21boi_2".
+Reading "WP_sky130_fd_sc_hd__o21a_2".
+Reading "WP_sky130_fd_sc_hd__and3_2".
+Reading "WP_sky130_fd_sc_hd__inv_2".
+Reading "WP_sky130_fd_sc_hd__a22o_2".
+Reading "WP_sky130_fd_sc_hd__a221o_2".
+Reading "WP_sky130_fd_sc_hd__o221a_2".
+Reading "WP_sky130_fd_sc_hd__a21oi_2".
+Reading "WP_sky130_fd_sc_hd__nand3_2".
+Reading "WP_sky130_fd_sc_hd__and2_2".
+Reading "WP_sky130_fd_sc_hd__xor2_2".
+Reading "WP_sky130_fd_sc_hd__or4_4".
+Reading "WP_sky130_fd_sc_hd__nor3_2".
+Reading "WP_sky130_fd_sc_hd__a22oi_2".
+Reading "WP_sky130_fd_sc_hd__o21ai_2".
+Reading "WP_sky130_fd_sc_hd__dfrtp_4".
+Reading "WP_sky130_fd_sc_hd__a31oi_2".
+Reading "WP_sky130_fd_sc_hd__a2bb2o_2".
+Reading "WP_sky130_fd_sc_hd__o31a_2".
+Reading "WP_sky130_fd_sc_hd__o31ai_2".
+Reading "WP_sky130_fd_sc_hd__and2_4".
+Reading "WP_sky130_fd_sc_hd__or4_2".
+Reading "WP_sky130_fd_sc_hd__buf_8".
+Reading "WP_sky130_fd_sc_hd__a2111o_2".
+Reading "WP_sky130_fd_sc_hd__and4_2".
+Reading "WP_sky130_fd_sc_hd__a211o_4".
+Reading "WP_sky130_fd_sc_hd__nand4_2".
+Reading "WP_sky130_fd_sc_hd__o311ai_2".
+Reading "WP_sky130_fd_sc_hd__o21ba_2".
+Reading "WP_sky130_fd_sc_hd__o2bb2a_4".
+Reading "WP_sky130_fd_sc_hd__or2b_2".
+Reading "WP_sky130_fd_sc_hd__nor2b_2".
+Reading "WP_sky130_fd_sc_hd__and3b_2".
+Reading "WP_sky130_fd_sc_hd__mux2_4".
+Reading "WP_sky130_fd_sc_hd__a2111oi_4".
+Reading "WP_sky130_fd_sc_hd__nor4b_2".
+Reading "WP_sky130_fd_sc_hd__o41a_2".
+Reading "WP_sky130_fd_sc_hd__nor4_2".
+Reading "WP_sky130_fd_sc_hd__nand2b_2".
+Reading "WP_sky130_fd_sc_hd__a32oi_4".
+Reading "WP_sky130_fd_sc_hd__xor2_4".
+Reading "WP_sky130_fd_sc_hd__o211a_4".
+Reading "WP_sky130_fd_sc_hd__xnor2_4".
+Reading "WP_sky130_fd_sc_hd__or4b_2".
+Reading "WP_sky130_fd_sc_hd__o2111a_2".
+Reading "WP_sky130_fd_sc_hd__a21o_4".
+Reading "WP_sky130_fd_sc_hd__a21oi_4".
+Reading "WP_sky130_fd_sc_hd__and4bb_2".
+Reading "WP_sky130_fd_sc_hd__o2bb2a_2".
+Reading "WP_sky130_fd_sc_hd__o311a_2".
+Reading "WP_sky130_fd_sc_hd__o32a_2".
+Reading "WP_sky130_fd_sc_hd__and4_4".
+Reading "WP_sky130_fd_sc_hd__clkinv_1".
+Reading "WP_sky130_fd_sc_hd__o41ai_2".
+Reading "WP_sky130_fd_sc_hd__a31oi_4".
+Reading "WP_sky130_fd_sc_hd__a311o_2".
+Reading "WP_sky130_fd_sc_hd__o21bai_2".
+Reading "WP_sky130_fd_sc_hd__a41o_2".
+Reading "WP_sky130_fd_sc_hd__nand2b_4".
+Reading "WP_sky130_fd_sc_hd__a32o_4".
+Reading "WP_sky130_fd_sc_hd__nand2_4".
+Reading "WP_sky130_fd_sc_hd__a32o_2".
+Reading "WP_sky130_fd_sc_hd__inv_4".
+Reading "WP_sky130_fd_sc_hd__nor2_4".
+Reading "WP_sky130_fd_sc_hd__or4b_4".
+Reading "WP_sky130_fd_sc_hd__a221oi_2".
+Reading "WP_sky130_fd_sc_hd__nand4b_2".
+Reading "WP_sky130_fd_sc_hd__nand3_1".
+Reading "WP_sky130_fd_sc_hd__nand3b_2".
+Reading "WP_sky130_fd_sc_hd__a32oi_2".
+Reading "WP_sky130_fd_sc_hd__o21ai_4".
+Reading "WP_sky130_fd_sc_hd__or4bb_2".
+Reading "WP_sky130_fd_sc_hd__inv_8".
+Reading "WP_sky130_fd_sc_hd__dfstp_2".
+Reading "WP_sky130_fd_sc_hd__nor2_1".
+Reading "WP_sky130_fd_sc_hd__a31o_4".
+Reading "WP_sky130_fd_sc_hd__o22ai_2".
+Reading "WP_sky130_fd_sc_hd__o221ai_2".
+Reading "project_macro_1_0".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+Reading "RE_sky130_fd_sc_hd__and4bb_2".
+Reading "RE_sky130_fd_sc_hd__nor4_2".
+Reading "RE_sky130_fd_sc_hd__dfstp_2".
+Reading "RE_sky130_fd_sc_hd__o21ai_1".
+Reading "RE_sky130_fd_sc_hd__nor3_4".
+Reading "RE_sky130_fd_sc_hd__nor3b_4".
+Reading "RE_sky130_fd_sc_hd__buf_12".
+Reading "RE_sky130_fd_sc_hd__a41o_2".
+Reading "RE_sky130_fd_sc_hd__o211a_1".
+Reading "RE_sky130_fd_sc_hd__and2_4".
+Reading "RE_sky130_fd_sc_hd__buf_8".
+Reading "RE_sky130_fd_sc_hd__a2111oi_2".
+Reading "RE_sky130_fd_sc_hd__a32oi_2".
+Reading "RE_sky130_fd_sc_hd__o2111a_2".
+Reading "RE_sky130_fd_sc_hd__a2111o_2".
+Reading "RE_sky130_fd_sc_hd__o221ai_2".
+Reading "RE_sky130_fd_sc_hd__o311ai_1".
+Reading "RE_sky130_fd_sc_hd__a31oi_4".
+Reading "RE_sky130_fd_sc_hd__inv_6".
+Reading "RE_sky130_fd_sc_hd__nor2_4".
+Reading "RE_sky130_fd_sc_hd__o31ai_2".
+Reading "RE_sky130_fd_sc_hd__o22ai_2".
+Reading "RE_sky130_fd_sc_hd__o31a_2".
+Reading "RE_sky130_fd_sc_hd__o41a_2".
+Reading "RE_sky130_fd_sc_hd__and4b_2".
+Reading "RE_sky130_fd_sc_hd__bufinv_16".
+Reading "RE_sky130_fd_sc_hd__clkinvlp_4".
+Reading "RE_sky130_fd_sc_hd__clkinv_2".
+Reading "RE_sky130_fd_sc_hd__o311a_2".
+Reading "RE_sky130_fd_sc_hd__inv_8".
+Reading "RE_sky130_fd_sc_hd__clkbuf_16".
+Reading "RE_sky130_fd_sc_hd__o311ai_2".
+Reading "RE_sky130_fd_sc_hd__or4_2".
+Reading "RE_sky130_fd_sc_hd__buf_6".
+Reading "RE_sky130_fd_sc_hd__a21boi_2".
+Reading "RE_sky130_fd_sc_hd__a31oi_2".
+Reading "RE_sky130_fd_sc_hd__a32o_2".
+Reading "RE_sky130_fd_sc_hd__xnor2_4".
+Reading "RE_sky130_fd_sc_hd__a21oi_4".
+Reading "RE_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "RE_sky130_fd_sc_hd__clkbuf_1".
+Reading "RE_sky130_fd_sc_hd__nor3_1".
+Reading "RE_sky130_fd_sc_hd__a211oi_1".
+Reading "RE_sky130_fd_sc_hd__nand3b_2".
+Reading "RE_sky130_fd_sc_hd__buf_2".
+Reading "RE_sky130_fd_sc_hd__a311o_2".
+Reading "RE_sky130_fd_sc_hd__a22oi_2".
+Reading "RE_sky130_fd_sc_hd__o32a_2".
+Reading "RE_sky130_fd_sc_hd__o2bb2ai_2".
+Reading "RE_sky130_fd_sc_hd__buf_1".
+Reading "RE_sky130_fd_sc_hd__nor2_1".
+Reading "RE_sky130_fd_sc_hd__diode_2".
+Reading "RE_sky130_fd_sc_hd__a221o_2".
+Reading "RE_sky130_fd_sc_hd__nand4_2".
+Reading "RE_sky130_fd_sc_hd__inv_4".
+Reading "RE_sky130_fd_sc_hd__clkbuf_4".
+Reading "RE_sky130_fd_sc_hd__clkinv_4".
+Reading "RE_sky130_fd_sc_hd__o22a_2".
+Reading "RE_sky130_fd_sc_hd__and4_2".
+Reading "RE_sky130_fd_sc_hd__o211ai_2".
+Reading "RE_sky130_fd_sc_hd__or4b_2".
+Reading "RE_sky130_fd_sc_hd__o2bb2a_2".
+Reading "RE_sky130_fd_sc_hd__a22o_2".
+Reading "RE_sky130_fd_sc_hd__clkbuf_8".
+Reading "RE_sky130_fd_sc_hd__dfxtp_2".
+Reading "RE_sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "RE_sky130_fd_sc_hd__nor3b_2".
+Reading "RE_sky130_fd_sc_hd__a21bo_2".
+Reading "RE_sky130_fd_sc_hd__a211o_2".
+Reading "RE_sky130_fd_sc_hd__or4bb_2".
+Reading "RE_sky130_fd_sc_hd__a2bb2o_2".
+Reading "RE_sky130_fd_sc_hd__buf_4".
+Reading "RE_sky130_fd_sc_hd__mux2_1".
+Reading "RE_sky130_fd_sc_hd__or3b_2".
+Reading "RE_sky130_fd_sc_hd__nand3_2".
+Reading "RE_sky130_fd_sc_hd__clkbuf_2".
+Reading "RE_sky130_fd_sc_hd__a31o_2".
+Reading "RE_sky130_fd_sc_hd__and3b_2".
+Reading "RE_sky130_fd_sc_hd__a211oi_2".
+Reading "RE_sky130_fd_sc_hd__o21bai_2".
+Reading "RE_sky130_fd_sc_hd__inv_2".
+Reading "RE_sky130_fd_sc_hd__dfrtp_2".
+Reading "RE_sky130_fd_sc_hd__nand2_2".
+Reading "RE_sky130_fd_sc_hd__o211a_2".
+Reading "RE_sky130_fd_sc_hd__or3_2".
+Reading "RE_sky130_fd_sc_hd__o21ba_2".
+Reading "RE_sky130_fd_sc_hd__o21ai_2".
+Reading "RE_sky130_fd_sc_hd__or2_2".
+Reading "RE_sky130_fd_sc_hd__nand2b_2".
+Reading "RE_sky130_fd_sc_hd__o21a_2".
+Reading "RE_sky130_fd_sc_hd__nor3_2".
+Reading "RE_sky130_fd_sc_hd__and3_2".
+Reading "RE_sky130_fd_sc_hd__a21oi_2".
+Reading "RE_sky130_fd_sc_hd__and2b_2".
+Reading "RE_sky130_fd_sc_hd__xor2_2".
+Reading "RE_sky130_fd_sc_hd__nor2_2".
+Reading "RE_sky130_fd_sc_hd__and2_2".
+Reading "RE_sky130_fd_sc_hd__a21o_2".
+Reading "RE_sky130_fd_sc_hd__xnor2_2".
+Reading "RE_sky130_fd_sc_hd__fill_2".
+Reading "RE_sky130_fd_sc_hd__conb_1".
+Reading "RE_sky130_fd_sc_hd__fill_1".
+Reading "RE_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "RE_sky130_fd_sc_hd__decap_3".
+Reading "project_macro_1_1".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+Reading "RW_sky130_fd_sc_hd__decap_3".
+Reading "RW_sky130_fd_sc_hd__fill_2".
+Reading "RW_sky130_fd_sc_hd__diode_2".
+Reading "RW_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "RW_sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "RW_sky130_fd_sc_hd__fill_1".
+Reading "RW_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "RW_sky130_fd_sc_hd__conb_1".
+Reading "RW_sky130_fd_sc_hd__buf_1".
+Reading "RW_sky130_fd_sc_hd__and2b_2".
+Reading "RW_sky130_fd_sc_hd__buf_6".
+Reading "RW_sky130_fd_sc_hd__buf_12".
+Reading "RW_sky130_fd_sc_hd__dfxtp_2".
+Reading "RW_sky130_fd_sc_hd__and3_2".
+Reading "RW_sky130_fd_sc_hd__a22o_2".
+Reading "RW_sky130_fd_sc_hd__dfrtp_2".
+Reading "RW_sky130_fd_sc_hd__or3b_2".
+Reading "RW_sky130_fd_sc_hd__a21oi_2".
+Reading "RW_sky130_fd_sc_hd__buf_2".
+Reading "RW_sky130_fd_sc_hd__a21o_2".
+Reading "RW_sky130_fd_sc_hd__clkbuf_2".
+Reading "RW_sky130_fd_sc_hd__a211oi_2".
+Reading "RW_sky130_fd_sc_hd__mux2_1".
+Reading "RW_sky130_fd_sc_hd__clkbuf_8".
+Reading "RW_sky130_fd_sc_hd__and2_2".
+Reading "RW_sky130_fd_sc_hd__clkinv_1".
+Reading "RW_sky130_fd_sc_hd__or2_2".
+Reading "RW_sky130_fd_sc_hd__nand2_2".
+Reading "RW_sky130_fd_sc_hd__a32o_2".
+Reading "RW_sky130_fd_sc_hd__nor2_4".
+Reading "RW_sky130_fd_sc_hd__nor3b_2".
+Reading "RW_sky130_fd_sc_hd__a31o_2".
+Reading "RW_sky130_fd_sc_hd__a221o_2".
+Reading "RW_sky130_fd_sc_hd__inv_2".
+Reading "RW_sky130_fd_sc_hd__bufinv_16".
+Reading "RW_sky130_fd_sc_hd__inv_4".
+Reading "RW_sky130_fd_sc_hd__and4bb_2".
+Reading "RW_sky130_fd_sc_hd__or3_2".
+Reading "RW_sky130_fd_sc_hd__nand3b_2".
+Reading "RW_sky130_fd_sc_hd__and4bb_1".
+Reading "RW_sky130_fd_sc_hd__nor2_2".
+Reading "RW_sky130_fd_sc_hd__clkbuf_4".
+Reading "RW_sky130_fd_sc_hd__o31ai_2".
+Reading "RW_sky130_fd_sc_hd__o31ai_4".
+Reading "RW_sky130_fd_sc_hd__clkinv_2".
+Reading "RW_sky130_fd_sc_hd__buf_4".
+Reading "RW_sky130_fd_sc_hd__dfrtp_4".
+Reading "RW_sky130_fd_sc_hd__clkbuf_1".
+Reading "RW_sky130_fd_sc_hd__a211o_2".
+Reading "RW_sky130_fd_sc_hd__nor4_2".
+Reading "RW_sky130_fd_sc_hd__nor3b_4".
+Reading "RW_sky130_fd_sc_hd__and2_4".
+Reading "RW_sky130_fd_sc_hd__mux4_2".
+Reading "RW_sky130_fd_sc_hd__o221a_2".
+Reading "RW_sky130_fd_sc_hd__o211a_2".
+Reading "RW_sky130_fd_sc_hd__o21a_2".
+Reading "RW_sky130_fd_sc_hd__inv_6".
+Reading "RW_sky130_fd_sc_hd__clkinv_8".
+Reading "RW_sky130_fd_sc_hd__a41o_2".
+Reading "RW_sky130_fd_sc_hd__nand2b_2".
+Reading "RW_sky130_fd_sc_hd__inv_12".
+Reading "RW_sky130_fd_sc_hd__o21ba_2".
+Reading "RW_sky130_fd_sc_hd__clkinvlp_4".
+Reading "RW_sky130_fd_sc_hd__xnor2_2".
+Reading "RW_sky130_fd_sc_hd__o22a_2".
+Reading "RW_sky130_fd_sc_hd__a2bb2o_2".
+Reading "RW_sky130_fd_sc_hd__o21ai_2".
+Reading "RW_sky130_fd_sc_hd__o2bb2a_2".
+Reading "RW_sky130_fd_sc_hd__a2111o_2".
+Reading "RW_sky130_fd_sc_hd__mux2_2".
+Reading "RW_sky130_fd_sc_hd__clkinv_4".
+Reading "RW_sky130_fd_sc_hd__and4_2".
+Reading "RW_sky130_fd_sc_hd__or2_4".
+Reading "RW_sky130_fd_sc_hd__nand2_4".
+Reading "RW_sky130_fd_sc_hd__or4_1".
+Reading "RW_sky130_fd_sc_hd__and4b_2".
+Reading "RW_sky130_fd_sc_hd__or4b_2".
+Reading "RW_sky130_fd_sc_hd__nand4_4".
+Reading "RW_sky130_fd_sc_hd__a211oi_4".
+Reading "RW_sky130_fd_sc_hd__a22oi_2".
+Reading "RW_sky130_fd_sc_hd__nand3_2".
+Reading "RW_sky130_fd_sc_hd__o31a_2".
+Reading "RW_sky130_fd_sc_hd__xor2_2".
+Reading "RW_sky130_fd_sc_hd__o21ai_4".
+Reading "RW_sky130_fd_sc_hd__o32a_2".
+Reading "RW_sky130_fd_sc_hd__dfxtp_4".
+Reading "RW_sky130_fd_sc_hd__inv_8".
+Reading "RW_sky130_fd_sc_hd__buf_8".
+Reading "RW_sky130_fd_sc_hd__o21bai_4".
+Reading "RW_sky130_fd_sc_hd__or4bb_1".
+Reading "RW_sky130_fd_sc_hd__o32ai_2".
+Reading "RW_sky130_fd_sc_hd__and3b_2".
+Reading "RW_sky130_fd_sc_hd__and2b_4".
+Reading "RW_sky130_fd_sc_hd__nand2b_4".
+Reading "RW_sky130_fd_sc_hd__or4_2".
+Reading "RW_sky130_fd_sc_hd__o311a_2".
+Reading "RW_sky130_fd_sc_hd__o41a_2".
+Reading "RW_sky130_fd_sc_hd__nor4_4".
+Reading "RW_sky130_fd_sc_hd__or3b_4".
+Reading "RW_sky130_fd_sc_hd__nor4_1".
+Reading "RW_sky130_fd_sc_hd__clkbuf_16".
+Reading "RW_sky130_fd_sc_hd__nor2_1".
+Reading "RW_sky130_fd_sc_hd__nor3_4".
+Reading "RW_sky130_fd_sc_hd__xor2_4".
+Reading "RW_sky130_fd_sc_hd__a21bo_2".
+Reading "RW_sky130_fd_sc_hd__xnor2_4".
+Reading "RW_sky130_fd_sc_hd__o31ai_1".
+Reading "RW_sky130_fd_sc_hd__nand2_8".
+Reading "RW_sky130_fd_sc_hd__o21bai_2".
+Reading "RW_sky130_fd_sc_hd__o21ai_1".
+Reading "RW_sky130_fd_sc_hd__o211ai_2".
+Reading "RW_sky130_fd_sc_hd__a311o_2".
+Reading "RW_sky130_fd_sc_hd__o22ai_4".
+Reading "RW_sky130_fd_sc_hd__a21boi_2".
+Reading "RW_sky130_fd_sc_hd__a21oi_4".
+Reading "RW_sky130_fd_sc_hd__a31oi_2".
+Reading "RW_sky130_fd_sc_hd__o2111a_2".
+Reading "RW_sky130_fd_sc_hd__xor2_1".
+Reading "RW_sky130_fd_sc_hd__nand4_2".
+Reading "RW_sky130_fd_sc_hd__o211ai_4".
+Reading "project_macro_1_2".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+Reading "sky130_fd_sc_hd__inv_2".
+Reading "sky130_fd_sc_hd__a21o_2".
+Reading "sky130_fd_sc_hd__nor2_4".
+Reading "sky130_fd_sc_hd__a31o_2".
+Reading "sky130_fd_sc_hd__and3b_2".
+Reading "vssd1_connection".
+Reading "Z0_sky130_fd_sc_hd__decap_3".
+Reading "Z0_sky130_fd_sc_hd__fill_1".
+Reading "Z0_sky130_fd_sc_hd__fill_2".
+Reading "Z0_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "Z0_sky130_fd_sc_hd__buf_4".
+Reading "Z0_sky130_fd_sc_hd__buf_12".
+Reading "Z0_sky130_fd_sc_hd__conb_1".
+Reading "Z0_sky130_fd_sc_hd__nand2_1".
+Reading "Z0_sky130_fd_sc_hd__xor2_1".
+Reading "Z0_sky130_fd_sc_hd__dfxtp_1".
+Reading "Z0_sky130_fd_sc_hd__buf_2".
+Reading "Z0_sky130_fd_sc_hd__clkbuf_16".
+Reading "Z0_sky130_fd_sc_hd__inv_1".
+Reading "Z0_sky130_fd_sc_hd__xor3_1".
+Reading "Z0_sky130_fd_sc_hd__clkbuf_2".
+Reading "Z0_sky130_fd_sc_hd__clkbuf_4".
+Reading "project_macro_2_0".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+    225000 uses
+    230000 uses
+    235000 uses
+    240000 uses
+    245000 uses
+    250000 uses
+Reading "UP_sky130_fd_sc_hd__buf_12".
+Reading "UP_sky130_fd_sc_hd__nand3b_2".
+Reading "UP_sky130_fd_sc_hd__a32o_2".
+Reading "UP_sky130_fd_sc_hd__o2111a_2".
+Reading "UP_sky130_fd_sc_hd__mux4_2".
+Reading "UP_sky130_fd_sc_hd__o32a_2".
+Reading "UP_sky130_fd_sc_hd__o221a_2".
+Reading "UP_sky130_fd_sc_hd__a221o_2".
+Reading "UP_sky130_fd_sc_hd__dfstp_2".
+Reading "UP_sky130_fd_sc_hd__buf_1".
+Reading "UP_sky130_fd_sc_hd__nand4_2".
+Reading "UP_sky130_fd_sc_hd__bufinv_16".
+Reading "UP_sky130_fd_sc_hd__nor4_2".
+Reading "UP_sky130_fd_sc_hd__a31oi_2".
+Reading "UP_sky130_fd_sc_hd__o211ai_2".
+Reading "UP_sky130_fd_sc_hd__or4bb_2".
+Reading "UP_sky130_fd_sc_hd__o22ai_2".
+Reading "UP_sky130_fd_sc_hd__o41a_2".
+Reading "UP_sky130_fd_sc_hd__clkbuf_16".
+Reading "UP_sky130_fd_sc_hd__inv_12".
+Reading "UP_sky130_fd_sc_hd__o311a_2".
+Reading "UP_sky130_fd_sc_hd__a2bb2o_2".
+Reading "UP_sky130_fd_sc_hd__diode_2".
+Reading "UP_sky130_fd_sc_hd__dfrtp_2".
+Reading "UP_sky130_fd_sc_hd__o2bb2a_2".
+Reading "UP_sky130_fd_sc_hd__nor4_4".
+Reading "UP_sky130_fd_sc_hd__buf_4".
+Reading "UP_sky130_fd_sc_hd__xnor2_4".
+Reading "UP_sky130_fd_sc_hd__buf_8".
+Reading "UP_sky130_fd_sc_hd__mux2_1".
+Reading "UP_sky130_fd_sc_hd__buf_2".
+Reading "UP_sky130_fd_sc_hd__o21bai_2".
+Reading "UP_sky130_fd_sc_hd__a22oi_2".
+Reading "UP_sky130_fd_sc_hd__buf_6".
+Reading "UP_sky130_fd_sc_hd__a21bo_2".
+Reading "UP_sky130_fd_sc_hd__a41o_2".
+Reading "UP_sky130_fd_sc_hd__clkinvlp_4".
+Reading "UP_sky130_fd_sc_hd__a2111o_2".
+Reading "UP_sky130_fd_sc_hd__and4_2".
+Reading "UP_sky130_fd_sc_hd__or4b_2".
+Reading "UP_sky130_fd_sc_hd__o31a_2".
+Reading "UP_sky130_fd_sc_hd__clkbuf_4".
+Reading "UP_sky130_fd_sc_hd__and4b_2".
+Reading "UP_sky130_fd_sc_hd__a22o_2".
+Reading "UP_sky130_fd_sc_hd__a221oi_2".
+Reading "UP_sky130_fd_sc_hd__a21oi_2".
+Reading "UP_sky130_fd_sc_hd__a311o_2".
+Reading "UP_sky130_fd_sc_hd__nor3b_2".
+Reading "UP_sky130_fd_sc_hd__or4_2".
+Reading "UP_sky130_fd_sc_hd__nor3_2".
+Reading "UP_sky130_fd_sc_hd__or3_2".
+Reading "UP_sky130_fd_sc_hd__o21ai_2".
+Reading "UP_sky130_fd_sc_hd__o21ba_2".
+Reading "UP_sky130_fd_sc_hd__o22a_2".
+Reading "UP_sky130_fd_sc_hd__or3b_2".
+Reading "UP_sky130_fd_sc_hd__a31o_2".
+Reading "UP_sky130_fd_sc_hd__clkbuf_8".
+Reading "UP_sky130_fd_sc_hd__clkinv_2".
+Reading "UP_sky130_fd_sc_hd__a21boi_2".
+Reading "UP_sky130_fd_sc_hd__nand3_2".
+Reading "UP_sky130_fd_sc_hd__and3b_2".
+Reading "UP_sky130_fd_sc_hd__and2b_2".
+Reading "UP_sky130_fd_sc_hd__a211o_2".
+Reading "UP_sky130_fd_sc_hd__clkbuf_2".
+Reading "UP_sky130_fd_sc_hd__o31ai_2".
+Reading "UP_sky130_fd_sc_hd__a21o_2".
+Reading "UP_sky130_fd_sc_hd__and3_2".
+Reading "UP_sky130_fd_sc_hd__o21a_2".
+Reading "UP_sky130_fd_sc_hd__nand2b_2".
+Reading "UP_sky130_fd_sc_hd__xor2_2".
+Reading "UP_sky130_fd_sc_hd__nor2_2".
+Reading "UP_sky130_fd_sc_hd__and2_2".
+Reading "UP_sky130_fd_sc_hd__or2_2".
+Reading "UP_sky130_fd_sc_hd__inv_2".
+Reading "UP_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "UP_sky130_fd_sc_hd__xnor2_2".
+Reading "UP_sky130_fd_sc_hd__nand2_2".
+Reading "UP_sky130_fd_sc_hd__o211a_2".
+Reading "UP_sky130_fd_sc_hd__dfxtp_2".
+Reading "UP_sky130_fd_sc_hd__fill_2".
+Reading "UP_sky130_fd_sc_hd__conb_1".
+Reading "UP_sky130_fd_sc_hd__fill_1".
+Reading "UP_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "UP_sky130_fd_sc_hd__decap_3".
+Reading "project_macro_2_1".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+    225000 uses
+    230000 uses
+    235000 uses
+    240000 uses
+    245000 uses
+Reading "MM_sky130_fd_sc_hd__decap_3".
+Reading "MM_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "MM_sky130_fd_sc_hd__fill_1".
+Reading "MM_sky130_fd_sc_hd__buf_4".
+Reading "MM_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "MM_sky130_fd_sc_hd__fill_2".
+Reading "MM_sky130_fd_sc_hd__buf_12".
+Reading "MM_sky130_fd_sc_hd__conb_1".
+Reading "MM_sky130_fd_sc_hd__buf_2".
+Reading "MM_sky130_fd_sc_hd__and3_2".
+Reading "MM_sky130_fd_sc_hd__o21a_2".
+Reading "MM_sky130_fd_sc_hd__xnor2_2".
+Reading "MM_sky130_fd_sc_hd__buf_1".
+Reading "MM_sky130_fd_sc_hd__and2_2".
+Reading "MM_sky130_fd_sc_hd__a21o_2".
+Reading "MM_sky130_fd_sc_hd__dfrtp_2".
+Reading "MM_sky130_fd_sc_hd__clkbuf_4".
+Reading "MM_sky130_fd_sc_hd__mux2_1".
+Reading "MM_sky130_fd_sc_hd__mux4_2".
+Reading "MM_sky130_fd_sc_hd__clkbuf_1".
+Reading "MM_sky130_fd_sc_hd__clkbuf_8".
+Reading "MM_sky130_fd_sc_hd__bufinv_16".
+Reading "MM_sky130_fd_sc_hd__clkinv_2".
+Reading "MM_sky130_fd_sc_hd__clkbuf_2".
+Reading "MM_sky130_fd_sc_hd__diode_2".
+Reading "MM_sky130_fd_sc_hd__inv_6".
+Reading "MM_sky130_fd_sc_hd__inv_2".
+Reading "MM_sky130_fd_sc_hd__dfstp_2".
+Reading "MM_sky130_fd_sc_hd__inv_4".
+Reading "MM_sky130_fd_sc_hd__or2_2".
+Reading "MM_sky130_fd_sc_hd__a22o_4".
+Reading "MM_sky130_fd_sc_hd__buf_6".
+Reading "MM_sky130_fd_sc_hd__nand2_2".
+Reading "MM_sky130_fd_sc_hd__xor2_2".
+Reading "MM_sky130_fd_sc_hd__a2bb2o_4".
+Reading "MM_sky130_fd_sc_hd__a22o_2".
+Reading "MM_sky130_fd_sc_hd__nor2_2".
+Reading "MM_sky130_fd_sc_hd__mux2_4".
+Reading "MM_sky130_fd_sc_hd__dfxtp_2".
+Reading "MM_sky130_fd_sc_hd__or2_4".
+Reading "MM_sky130_fd_sc_hd__or4b_4".
+Reading "MM_sky130_fd_sc_hd__or4_4".
+Reading "MM_sky130_fd_sc_hd__a21oi_2".
+Reading "MM_sky130_fd_sc_hd__and4_2".
+Reading "MM_sky130_fd_sc_hd__nand3b_2".
+Reading "MM_sky130_fd_sc_hd__a21bo_2".
+Reading "MM_sky130_fd_sc_hd__clkbuf_16".
+Reading "MM_sky130_fd_sc_hd__xnor2_4".
+Reading "MM_sky130_fd_sc_hd__a31o_2".
+Reading "project_macro_2_2".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+    225000 uses
+    230000 uses
+    235000 uses
+    240000 uses
+    245000 uses
+Reading "G2_sky130_fd_sc_hd__decap_3".
+Reading "G2_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "G2_sky130_fd_sc_hd__fill_1".
+Reading "G2_sky130_fd_sc_hd__buf_4".
+Reading "G2_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "G2_sky130_fd_sc_hd__fill_2".
+Reading "G2_sky130_fd_sc_hd__buf_12".
+Reading "G2_sky130_fd_sc_hd__conb_1".
+Reading "G2_sky130_fd_sc_hd__buf_2".
+Reading "G2_sky130_fd_sc_hd__and3_2".
+Reading "G2_sky130_fd_sc_hd__o21a_2".
+Reading "G2_sky130_fd_sc_hd__xnor2_2".
+Reading "G2_sky130_fd_sc_hd__buf_1".
+Reading "G2_sky130_fd_sc_hd__and2_2".
+Reading "G2_sky130_fd_sc_hd__a21o_2".
+Reading "G2_sky130_fd_sc_hd__dfrtp_2".
+Reading "G2_sky130_fd_sc_hd__clkbuf_4".
+Reading "G2_sky130_fd_sc_hd__mux2_1".
+Reading "G2_sky130_fd_sc_hd__mux4_2".
+Reading "G2_sky130_fd_sc_hd__clkbuf_1".
+Reading "G2_sky130_fd_sc_hd__clkbuf_8".
+Reading "G2_sky130_fd_sc_hd__bufinv_16".
+Reading "G2_sky130_fd_sc_hd__clkinv_2".
+Reading "G2_sky130_fd_sc_hd__clkbuf_2".
+Reading "G2_sky130_fd_sc_hd__diode_2".
+Reading "G2_sky130_fd_sc_hd__inv_6".
+Reading "G2_sky130_fd_sc_hd__inv_2".
+Reading "G2_sky130_fd_sc_hd__dfstp_2".
+Reading "G2_sky130_fd_sc_hd__inv_4".
+Reading "G2_sky130_fd_sc_hd__or2_2".
+Reading "G2_sky130_fd_sc_hd__a22o_4".
+Reading "G2_sky130_fd_sc_hd__buf_6".
+Reading "G2_sky130_fd_sc_hd__nand2_2".
+Reading "G2_sky130_fd_sc_hd__xor2_2".
+Reading "G2_sky130_fd_sc_hd__a2bb2o_4".
+Reading "G2_sky130_fd_sc_hd__a22o_2".
+Reading "G2_sky130_fd_sc_hd__nor2_2".
+Reading "G2_sky130_fd_sc_hd__mux2_4".
+Reading "G2_sky130_fd_sc_hd__dfxtp_2".
+Reading "G2_sky130_fd_sc_hd__or2_4".
+Reading "G2_sky130_fd_sc_hd__or4b_4".
+Reading "G2_sky130_fd_sc_hd__or4_4".
+Reading "G2_sky130_fd_sc_hd__a21oi_2".
+Reading "G2_sky130_fd_sc_hd__and4_2".
+Reading "G2_sky130_fd_sc_hd__nand3b_2".
+Reading "G2_sky130_fd_sc_hd__a21bo_2".
+Reading "G2_sky130_fd_sc_hd__clkbuf_16".
+Reading "G2_sky130_fd_sc_hd__xnor2_4".
+Reading "G2_sky130_fd_sc_hd__a31o_2".
+Reading "project_macro_3_0".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+    225000 uses
+    230000 uses
+    235000 uses
+    240000 uses
+    245000 uses
+Reading "KW_sky130_fd_sc_hd__decap_3".
+Reading "KW_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "KW_sky130_fd_sc_hd__fill_1".
+Reading "KW_sky130_fd_sc_hd__buf_4".
+Reading "KW_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "KW_sky130_fd_sc_hd__fill_2".
+Reading "KW_sky130_fd_sc_hd__buf_12".
+Reading "KW_sky130_fd_sc_hd__conb_1".
+Reading "KW_sky130_fd_sc_hd__buf_2".
+Reading "KW_sky130_fd_sc_hd__and3_2".
+Reading "KW_sky130_fd_sc_hd__o21a_2".
+Reading "KW_sky130_fd_sc_hd__xnor2_2".
+Reading "KW_sky130_fd_sc_hd__buf_1".
+Reading "KW_sky130_fd_sc_hd__and2_2".
+Reading "KW_sky130_fd_sc_hd__a21o_2".
+Reading "KW_sky130_fd_sc_hd__dfrtp_2".
+Reading "KW_sky130_fd_sc_hd__clkbuf_4".
+Reading "KW_sky130_fd_sc_hd__mux2_1".
+Reading "KW_sky130_fd_sc_hd__mux4_2".
+Reading "KW_sky130_fd_sc_hd__clkbuf_1".
+Reading "KW_sky130_fd_sc_hd__clkbuf_8".
+Reading "KW_sky130_fd_sc_hd__bufinv_16".
+Reading "KW_sky130_fd_sc_hd__clkinv_2".
+Reading "KW_sky130_fd_sc_hd__clkbuf_2".
+Reading "KW_sky130_fd_sc_hd__diode_2".
+Reading "KW_sky130_fd_sc_hd__inv_6".
+Reading "KW_sky130_fd_sc_hd__inv_2".
+Reading "KW_sky130_fd_sc_hd__dfstp_2".
+Reading "KW_sky130_fd_sc_hd__inv_4".
+Reading "KW_sky130_fd_sc_hd__or2_2".
+Reading "KW_sky130_fd_sc_hd__a22o_4".
+Reading "KW_sky130_fd_sc_hd__buf_6".
+Reading "KW_sky130_fd_sc_hd__nand2_2".
+Reading "KW_sky130_fd_sc_hd__xor2_2".
+Reading "KW_sky130_fd_sc_hd__a2bb2o_4".
+Reading "KW_sky130_fd_sc_hd__a22o_2".
+Reading "KW_sky130_fd_sc_hd__nor2_2".
+Reading "KW_sky130_fd_sc_hd__mux2_4".
+Reading "KW_sky130_fd_sc_hd__dfxtp_2".
+Reading "KW_sky130_fd_sc_hd__or2_4".
+Reading "KW_sky130_fd_sc_hd__or4b_4".
+Reading "KW_sky130_fd_sc_hd__or4_4".
+Reading "KW_sky130_fd_sc_hd__a21oi_2".
+Reading "KW_sky130_fd_sc_hd__and4_2".
+Reading "KW_sky130_fd_sc_hd__nand3b_2".
+Reading "KW_sky130_fd_sc_hd__a21bo_2".
+Reading "KW_sky130_fd_sc_hd__clkbuf_16".
+Reading "KW_sky130_fd_sc_hd__xnor2_4".
+Reading "KW_sky130_fd_sc_hd__a31o_2".
+Reading "project_macro_3_1".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+    225000 uses
+    230000 uses
+    235000 uses
+    240000 uses
+    245000 uses
+Reading "EK_sky130_fd_sc_hd__decap_3".
+Reading "EK_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "EK_sky130_fd_sc_hd__fill_1".
+Reading "EK_sky130_fd_sc_hd__buf_4".
+Reading "EK_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "EK_sky130_fd_sc_hd__fill_2".
+Reading "EK_sky130_fd_sc_hd__buf_12".
+Reading "EK_sky130_fd_sc_hd__conb_1".
+Reading "EK_sky130_fd_sc_hd__buf_2".
+Reading "EK_sky130_fd_sc_hd__and3_2".
+Reading "EK_sky130_fd_sc_hd__o21a_2".
+Reading "EK_sky130_fd_sc_hd__xnor2_2".
+Reading "EK_sky130_fd_sc_hd__buf_1".
+Reading "EK_sky130_fd_sc_hd__and2_2".
+Reading "EK_sky130_fd_sc_hd__a21o_2".
+Reading "EK_sky130_fd_sc_hd__dfrtp_2".
+Reading "EK_sky130_fd_sc_hd__clkbuf_4".
+Reading "EK_sky130_fd_sc_hd__mux2_1".
+Reading "EK_sky130_fd_sc_hd__mux4_2".
+Reading "EK_sky130_fd_sc_hd__clkbuf_1".
+Reading "EK_sky130_fd_sc_hd__clkbuf_8".
+Reading "EK_sky130_fd_sc_hd__bufinv_16".
+Reading "EK_sky130_fd_sc_hd__clkinv_2".
+Reading "EK_sky130_fd_sc_hd__clkbuf_2".
+Reading "EK_sky130_fd_sc_hd__diode_2".
+Reading "EK_sky130_fd_sc_hd__inv_6".
+Reading "EK_sky130_fd_sc_hd__inv_2".
+Reading "EK_sky130_fd_sc_hd__dfstp_2".
+Reading "EK_sky130_fd_sc_hd__inv_4".
+Reading "EK_sky130_fd_sc_hd__or2_2".
+Reading "EK_sky130_fd_sc_hd__a22o_4".
+Reading "EK_sky130_fd_sc_hd__buf_6".
+Reading "EK_sky130_fd_sc_hd__nand2_2".
+Reading "EK_sky130_fd_sc_hd__xor2_2".
+Reading "EK_sky130_fd_sc_hd__a2bb2o_4".
+Reading "EK_sky130_fd_sc_hd__a22o_2".
+Reading "EK_sky130_fd_sc_hd__nor2_2".
+Reading "EK_sky130_fd_sc_hd__mux2_4".
+Reading "EK_sky130_fd_sc_hd__dfxtp_2".
+Reading "EK_sky130_fd_sc_hd__or2_4".
+Reading "EK_sky130_fd_sc_hd__or4b_4".
+Reading "EK_sky130_fd_sc_hd__or4_4".
+Reading "EK_sky130_fd_sc_hd__a21oi_2".
+Reading "EK_sky130_fd_sc_hd__and4_2".
+Reading "EK_sky130_fd_sc_hd__nand3b_2".
+Reading "EK_sky130_fd_sc_hd__a21bo_2".
+Reading "EK_sky130_fd_sc_hd__clkbuf_16".
+Reading "EK_sky130_fd_sc_hd__xnor2_4".
+Reading "EK_sky130_fd_sc_hd__a31o_2".
+Reading "project_macro_3_2".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+    225000 uses
+    230000 uses
+    235000 uses
+    240000 uses
+    245000 uses
+Reading "sky130_fd_sc_hd__o221a_2".
+Reading "sky130_fd_sc_hd__and2b_4".
+Reading "sky130_fd_sc_hd__a21bo_2".
+Reading "sky130_fd_sc_hd__o21a_4".
+Reading "sky130_fd_sc_hd__a221o_4".
+Reading "sky130_fd_sc_hd__nand2_8".
+Reading "sky130_fd_sc_hd__o221a_4".
+Reading "sky130_fd_sc_hd__o21a_2".
+Reading "vccd1_connection".
+Reading "openframe_project_wrapper".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+    225000 uses
+    230000 uses
+    235000 uses
+    240000 uses
+    245000 uses
+    250000 uses
+    255000 uses
+    260000 uses
+    265000 uses
+    270000 uses
+    275000 uses
+    280000 uses
+    285000 uses
+    290000 uses
+    295000 uses
+    300000 uses
+    305000 uses
+    310000 uses
+    315000 uses
+    320000 uses
+    325000 uses
+    330000 uses
+    335000 uses
+    340000 uses
+    345000 uses
+    350000 uses
+    355000 uses
+    360000 uses
+    365000 uses
+    370000 uses
+    375000 uses
+    380000 uses
+    385000 uses
+    390000 uses
+    395000 uses
+    400000 uses
+    405000 uses
+    410000 uses
+    415000 uses
+    420000 uses
+    425000 uses
+    430000 uses
+    435000 uses
+    440000 uses
+    445000 uses
+    450000 uses
+    455000 uses
+    460000 uses
+    465000 uses
+    470000 uses
+    475000 uses
+    480000 uses
+    485000 uses
+    490000 uses
+    495000 uses
+    500000 uses
+    505000 uses
+    510000 uses
+    515000 uses
+    520000 uses
+    525000 uses
+    530000 uses
+    535000 uses
+    540000 uses
+    545000 uses
+    550000 uses
+    555000 uses
+    560000 uses
+    565000 uses
+    570000 uses
+    575000 uses
+    580000 uses
+    585000 uses
+    590000 uses
+    595000 uses
+    600000 uses
+    605000 uses
+    610000 uses
+    615000 uses
+    620000 uses
+    625000 uses
+    630000 uses
+    635000 uses
+    640000 uses
+    645000 uses
+    650000 uses
+    655000 uses
+    660000 uses
+    665000 uses
+    670000 uses
+    675000 uses
+    680000 uses
+    685000 uses
+    690000 uses
+    695000 uses
+    700000 uses
+    705000 uses
+    710000 uses
+    715000 uses
+    720000 uses
+    725000 uses
+    730000 uses
+    735000 uses
+    740000 uses
+    745000 uses
+    750000 uses
+    755000 uses
+    760000 uses
+    765000 uses
+    770000 uses
+    775000 uses
+    780000 uses
+    785000 uses
+    790000 uses
+    795000 uses
+    800000 uses
+    805000 uses
+    810000 uses
+    815000 uses
+    820000 uses
+    825000 uses
+    830000 uses
+
+Magic 8.3 revision 471 - Compiled on Wed Apr 22 16:23:58 UTC 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design magicrc.well for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Loading tech file /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/tmp/sky130A.tech
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading "/tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/tmp/ext/extract.tcl" from command line.
+Extracting with top ports connected by name (analog)
+CIF input style is now "sky130()"
+Flattening 
+
+Extracting /tmp/tmplp50_0bl/repo/gds/openframe_project_wrapper.gds
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: openframe_project_wrapper
+Reading "sky130_fd_sc_hd__decap_3".
+Reading "sky130_fd_sc_hd__fill_1".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "sky130_fd_sc_hd__fill_2".
+Reading "sky130_fd_sc_hd__clkbuf_16".
+Reading "sky130_fd_sc_hd__conb_1".
+Reading "sky130_fd_sc_hd__buf_8".
+Reading "sky130_fd_sc_hd__buf_6".
+Reading "sky130_fd_sc_hd__buf_2".
+Reading "sky130_fd_sc_hd__diode_2".
+Reading "sky130_fd_sc_hd__mux2_1".
+Reading "sky130_fd_sc_hd__buf_4".
+Reading "sky130_fd_sc_hd__clkbuf_2".
+Reading "sky130_fd_sc_hd__nand2b_4".
+Reading "sky130_fd_sc_hd__mux2_8".
+Reading "sky130_fd_sc_hd__buf_12".
+Reading "sky130_fd_sc_hd__and2_4".
+Reading "sky130_fd_sc_hd__and2_2".
+Reading "sky130_fd_sc_hd__mux2_2".
+Reading "sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "sky130_fd_sc_hd__buf_1".
+Reading "sky130_fd_sc_hd__nand2b_2".
+Reading "sky130_fd_sc_hd__clkbuf_4".
+Reading "sky130_fd_sc_hd__mux2_4".
+Reading "PE_sky130_fd_sc_hd__decap_3".
+Reading "PE_sky130_fd_sc_hd__buf_4".
+Reading "PE_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "PE_sky130_fd_sc_hd__fill_1".
+Reading "PE_sky130_fd_sc_hd__fill_2".
+Reading "PE_sky130_fd_sc_hd__diode_2".
+Reading "PE_sky130_fd_sc_hd__buf_12".
+Reading "PE_sky130_fd_sc_hd__conb_1".
+Reading "PE_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "PE_sky130_fd_sc_hd__nor2_2".
+Reading "PE_sky130_fd_sc_hd__o21ai_2".
+Reading "PE_sky130_fd_sc_hd__buf_2".
+Reading "PE_sky130_fd_sc_hd__nand2_2".
+Reading "PE_sky130_fd_sc_hd__a31o_2".
+Reading "PE_sky130_fd_sc_hd__o211a_2".
+Reading "PE_sky130_fd_sc_hd__or2_2".
+Reading "PE_sky130_fd_sc_hd__o221a_2".
+Reading "PE_sky130_fd_sc_hd__clkbuf_4".
+Reading "PE_sky130_fd_sc_hd__o31a_2".
+Reading "PE_sky130_fd_sc_hd__a211o_2".
+Reading "PE_sky130_fd_sc_hd__nor2_4".
+Reading "PE_sky130_fd_sc_hd__inv_2".
+Reading "PE_sky130_fd_sc_hd__a21oi_2".
+Reading "PE_sky130_fd_sc_hd__o21a_2".
+Reading "PE_sky130_fd_sc_hd__and3_2".
+Reading "PE_sky130_fd_sc_hd__a22o_2".
+Reading "PE_sky130_fd_sc_hd__mux2_1".
+Reading "PE_sky130_fd_sc_hd__buf_6".
+Reading "PE_sky130_fd_sc_hd__and2_2".
+Reading "PE_sky130_fd_sc_hd__a311o_2".
+Reading "PE_sky130_fd_sc_hd__a32o_2".
+Reading "PE_sky130_fd_sc_hd__or3_2".
+Reading "PE_sky130_fd_sc_hd__a21o_2".
+Reading "PE_sky130_fd_sc_hd__o311a_2".
+Reading "PE_sky130_fd_sc_hd__o22a_2".
+Reading "PE_sky130_fd_sc_hd__o32a_2".
+Reading "PE_sky130_fd_sc_hd__or4_2".
+Reading "PE_sky130_fd_sc_hd__a41o_2".
+Reading "PE_sky130_fd_sc_hd__and3b_2".
+Reading "PE_sky130_fd_sc_hd__nor2_1".
+Reading "PE_sky130_fd_sc_hd__o211ai_2".
+Reading "PE_sky130_fd_sc_hd__a31oi_2".
+Reading "PE_sky130_fd_sc_hd__or4b_2".
+Reading "PE_sky130_fd_sc_hd__o22ai_2".
+Reading "PE_sky130_fd_sc_hd__and4b_2".
+Reading "PE_sky130_fd_sc_hd__clkbuf_8".
+Reading "PE_sky130_fd_sc_hd__nor3_2".
+Reading "PE_sky130_fd_sc_hd__nor4_2".
+Reading "PE_sky130_fd_sc_hd__clkbuf_2".
+Reading "PE_sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "PE_sky130_fd_sc_hd__dfrtp_2".
+Reading "PE_sky130_fd_sc_hd__a2bb2o_2".
+Reading "PE_sky130_fd_sc_hd__a21bo_2".
+Reading "PE_sky130_fd_sc_hd__dfxtp_2".
+Reading "PE_sky130_fd_sc_hd__a2111o_2".
+Reading "PE_sky130_fd_sc_hd__or3b_2".
+Reading "PE_sky130_fd_sc_hd__o2111a_2".
+Reading "PE_sky130_fd_sc_hd__o2bb2a_2".
+Reading "PE_sky130_fd_sc_hd__a221o_2".
+Reading "PE_sky130_fd_sc_hd__nand3_2".
+Reading "PE_sky130_fd_sc_hd__and4_2".
+Reading "PE_sky130_fd_sc_hd__a21oi_4".
+Reading "PE_sky130_fd_sc_hd__a2111oi_2".
+Reading "PE_sky130_fd_sc_hd__or4bb_2".
+Reading "PE_sky130_fd_sc_hd__a211oi_2".
+Reading "PE_sky130_fd_sc_hd__clkinv_2".
+Reading "PE_sky130_fd_sc_hd__a311oi_2".
+Reading "PE_sky130_fd_sc_hd__xnor2_2".
+Reading "PE_sky130_fd_sc_hd__o221ai_2".
+Reading "PE_sky130_fd_sc_hd__and2b_2".
+Reading "PE_sky130_fd_sc_hd__bufinv_16".
+Reading "PE_sky130_fd_sc_hd__nand2b_2".
+Reading "PE_sky130_fd_sc_hd__dfstp_2".
+Reading "PE_sky130_fd_sc_hd__buf_1".
+Reading "PE_sky130_fd_sc_hd__clkinvlp_4".
+Reading "PE_sky130_fd_sc_hd__a22oi_2".
+Reading "PE_sky130_fd_sc_hd__inv_8".
+Reading "PE_sky130_fd_sc_hd__clkinv_8".
+Reading "PE_sky130_fd_sc_hd__nor3b_2".
+Reading "PE_sky130_fd_sc_hd__mux4_2".
+Reading "PE_sky130_fd_sc_hd__buf_8".
+Reading "PE_sky130_fd_sc_hd__o21bai_2".
+Reading "PE_sky130_fd_sc_hd__o31ai_2".
+Reading "PE_sky130_fd_sc_hd__o21ba_2".
+Reading "PE_sky130_fd_sc_hd__xor2_2".
+Reading "PE_sky130_fd_sc_hd__inv_6".
+Reading "PE_sky130_fd_sc_hd__and4bb_2".
+Reading "PE_sky130_fd_sc_hd__inv_12".
+Reading "PE_sky130_fd_sc_hd__a221oi_2".
+Reading "PE_sky130_fd_sc_hd__nand3b_2".
+Reading "PE_sky130_fd_sc_hd__a41oi_2".
+Reading "PE_sky130_fd_sc_hd__nor4b_2".
+Reading "PE_sky130_fd_sc_hd__a21boi_2".
+Reading "PE_sky130_fd_sc_hd__nand4_2".
+Reading "PE_sky130_fd_sc_hd__clkinv_1".
+Reading "PE_sky130_fd_sc_hd__o21ai_4".
+Reading "PE_sky130_fd_sc_hd__o2111ai_2".
+Reading "PE_sky130_fd_sc_hd__nor4_1".
+Reading "PE_sky130_fd_sc_hd__a32oi_2".
+Reading "PE_sky130_fd_sc_hd__clkbuf_16".
+Reading "PE_sky130_fd_sc_hd__clkbuf_1".
+Reading "PE_sky130_fd_sc_hd__a2111oi_1".
+CIF file read warning: CIF style sky130(): units rescaled by factor of 5 / 1
+CIF file read warning: Input off lambda grid by 2/5; snapped to grid.
+Reading "PE_sky130_fd_sc_hd__nor3_4".
+Reading "PE_sky130_fd_sc_hd__o2bb2ai_2".
+Reading "PE_sky130_fd_sc_hd__o41a_2".
+Reading "PE_sky130_fd_sc_hd__dfxtp_4".
+Reading "PE_sky130_fd_sc_hd__clkinv_4".
+Reading "PE_sky130_fd_sc_hd__o32ai_2".
+Reading "project_macro_0_0".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+Reading "XG_sky130_fd_sc_hd__a311oi_2".
+Reading "XG_sky130_fd_sc_hd__and3_4".
+Reading "XG_sky130_fd_sc_hd__o2111ai_4".
+Reading "XG_sky130_fd_sc_hd__a2bb2oi_2".
+Reading "XG_sky130_fd_sc_hd__nand2b_4".
+Reading "XG_sky130_fd_sc_hd__dfstp_4".
+Reading "XG_sky130_fd_sc_hd__xor2_4".
+Reading "XG_sky130_fd_sc_hd__a211o_2".
+Reading "XG_sky130_fd_sc_hd__nor2b_4".
+Reading "XG_sky130_fd_sc_hd__o2111ai_2".
+Reading "XG_sky130_fd_sc_hd__inv_8".
+Reading "XG_sky130_fd_sc_hd__inv_12".
+Reading "XG_sky130_fd_sc_hd__a22oi_2".
+Reading "XG_sky130_fd_sc_hd__o2bb2a_2".
+Reading "XG_sky130_fd_sc_hd__o211ai_4".
+Reading "XG_sky130_fd_sc_hd__a31oi_4".
+Reading "XG_sky130_fd_sc_hd__o2bb2ai_2".
+Reading "XG_sky130_fd_sc_hd__o21ai_4".
+Reading "XG_sky130_fd_sc_hd__a31oi_2".
+Reading "XG_sky130_fd_sc_hd__o21bai_4".
+Reading "XG_sky130_fd_sc_hd__a21boi_4".
+Reading "XG_sky130_fd_sc_hd__xnor2_4".
+Reading "XG_sky130_fd_sc_hd__or4_4".
+Reading "XG_sky130_fd_sc_hd__o21ba_2".
+Reading "XG_sky130_fd_sc_hd__or3_4".
+Reading "XG_sky130_fd_sc_hd__a21oi_4".
+Reading "XG_sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "XG_sky130_fd_sc_hd__o221a_2".
+Reading "XG_sky130_fd_sc_hd__o211ai_2".
+Reading "XG_sky130_fd_sc_hd__and2_4".
+Reading "XG_sky130_fd_sc_hd__nor2b_2".
+Reading "XG_sky130_fd_sc_hd__o22ai_2".
+Reading "XG_sky130_fd_sc_hd__nand3_4".
+Reading "XG_sky130_fd_sc_hd__clkinv_2".
+Reading "XG_sky130_fd_sc_hd__clkinv_1".
+Reading "XG_sky130_fd_sc_hd__nand2b_2".
+Reading "XG_sky130_fd_sc_hd__diode_2".
+Reading "XG_sky130_fd_sc_hd__nand3_1".
+Reading "XG_sky130_fd_sc_hd__or2_4".
+Reading "XG_sky130_fd_sc_hd__a21bo_2".
+Reading "XG_sky130_fd_sc_hd__clkinvlp_4".
+Reading "XG_sky130_fd_sc_hd__nand3b_4".
+Reading "XG_sky130_fd_sc_hd__bufinv_8".
+Reading "XG_sky130_fd_sc_hd__inv_6".
+Reading "XG_sky130_fd_sc_hd__clkbuf_16".
+Reading "XG_sky130_fd_sc_hd__bufinv_16".
+Reading "XG_sky130_fd_sc_hd__nor2_8".
+Reading "XG_sky130_fd_sc_hd__nand2_4".
+Reading "XG_sky130_fd_sc_hd__nand2_8".
+Reading "XG_sky130_fd_sc_hd__nor2_4".
+Reading "XG_sky130_fd_sc_hd__o21bai_2".
+Reading "XG_sky130_fd_sc_hd__and4b_2".
+Reading "XG_sky130_fd_sc_hd__o21a_2".
+Reading "XG_sky130_fd_sc_hd__buf_8".
+Reading "XG_sky130_fd_sc_hd__a32o_2".
+Reading "XG_sky130_fd_sc_hd__o2111a_2".
+Reading "XG_sky130_fd_sc_hd__inv_4".
+Reading "XG_sky130_fd_sc_hd__a21boi_2".
+Reading "XG_sky130_fd_sc_hd__clkbuf_1".
+Reading "XG_sky130_fd_sc_hd__a2111oi_2".
+Reading "XG_sky130_fd_sc_hd__xnor2_2".
+Reading "XG_sky130_fd_sc_hd__buf_6".
+Reading "XG_sky130_fd_sc_hd__or3_2".
+Reading "XG_sky130_fd_sc_hd__clkinv_4".
+Reading "XG_sky130_fd_sc_hd__o211a_2".
+Reading "XG_sky130_fd_sc_hd__clkbuf_2".
+Reading "XG_sky130_fd_sc_hd__nand3b_2".
+Reading "XG_sky130_fd_sc_hd__o311a_2".
+Reading "XG_sky130_fd_sc_hd__or4_2".
+Reading "XG_sky130_fd_sc_hd__and4_2".
+Reading "XG_sky130_fd_sc_hd__nand3_2".
+Reading "XG_sky130_fd_sc_hd__a311o_2".
+Reading "XG_sky130_fd_sc_hd__and3_2".
+Reading "XG_sky130_fd_sc_hd__nor3b_2".
+Reading "XG_sky130_fd_sc_hd__and2b_2".
+Reading "XG_sky130_fd_sc_hd__xor2_2".
+Reading "XG_sky130_fd_sc_hd__dfrtp_4".
+Reading "XG_sky130_fd_sc_hd__or3b_2".
+Reading "XG_sky130_fd_sc_hd__nor3_2".
+Reading "XG_sky130_fd_sc_hd__or2b_2".
+Reading "XG_sky130_fd_sc_hd__o21ai_2".
+Reading "XG_sky130_fd_sc_hd__o22a_2".
+Reading "XG_sky130_fd_sc_hd__a2111o_2".
+Reading "XG_sky130_fd_sc_hd__a21oi_2".
+Reading "XG_sky130_fd_sc_hd__a31o_2".
+Reading "XG_sky130_fd_sc_hd__nor2_2".
+Reading "XG_sky130_fd_sc_hd__clkbuf_8".
+Reading "XG_sky130_fd_sc_hd__clkbuf_4".
+Reading "XG_sky130_fd_sc_hd__mux2_2".
+Reading "XG_sky130_fd_sc_hd__and3b_2".
+Reading "XG_sky130_fd_sc_hd__or2_2".
+Reading "XG_sky130_fd_sc_hd__o31a_2".
+Reading "XG_sky130_fd_sc_hd__nand2_2".
+Reading "XG_sky130_fd_sc_hd__buf_1".
+Reading "XG_sky130_fd_sc_hd__dfstp_2".
+Reading "XG_sky130_fd_sc_hd__dfrtp_2".
+Reading "XG_sky130_fd_sc_hd__and2_2".
+Reading "XG_sky130_fd_sc_hd__a22o_2".
+Reading "XG_sky130_fd_sc_hd__inv_2".
+Reading "XG_sky130_fd_sc_hd__a221o_2".
+Reading "XG_sky130_fd_sc_hd__a21o_2".
+Reading "XG_sky130_fd_sc_hd__buf_2".
+Reading "XG_sky130_fd_sc_hd__buf_12".
+Reading "XG_sky130_fd_sc_hd__buf_4".
+Reading "XG_sky130_fd_sc_hd__fill_2".
+Reading "XG_sky130_fd_sc_hd__conb_1".
+Reading "XG_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "XG_sky130_fd_sc_hd__fill_1".
+Reading "XG_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "XG_sky130_fd_sc_hd__decap_3".
+Reading "project_macro_0_1".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+    225000 uses
+Reading "BM_sky130_fd_sc_hd__o221ai_4".
+Reading "BM_sky130_fd_sc_hd__nor2_1".
+Reading "BM_sky130_fd_sc_hd__o21ai_1".
+Reading "BM_sky130_fd_sc_hd__clkbuf_16".
+Reading "BM_sky130_fd_sc_hd__o31ai_2".
+Reading "BM_sky130_fd_sc_hd__clkinv_4".
+Reading "BM_sky130_fd_sc_hd__o311a_2".
+Reading "BM_sky130_fd_sc_hd__o221ai_2".
+Reading "BM_sky130_fd_sc_hd__clkinvlp_4".
+Reading "BM_sky130_fd_sc_hd__a221oi_4".
+Reading "BM_sky130_fd_sc_hd__a31o_4".
+Reading "BM_sky130_fd_sc_hd__a31oi_2".
+Reading "BM_sky130_fd_sc_hd__o2111ai_2".
+Reading "BM_sky130_fd_sc_hd__buf_8".
+Reading "BM_sky130_fd_sc_hd__nor2_8".
+Reading "BM_sky130_fd_sc_hd__dfrtp_4".
+Reading "BM_sky130_fd_sc_hd__nand2_8".
+Reading "BM_sky130_fd_sc_hd__a311oi_2".
+Reading "BM_sky130_fd_sc_hd__nand3_4".
+Reading "BM_sky130_fd_sc_hd__inv_4".
+Reading "BM_sky130_fd_sc_hd__a311o_2".
+Reading "BM_sky130_fd_sc_hd__o2bb2ai_2".
+Reading "BM_sky130_fd_sc_hd__o21bai_2".
+Reading "BM_sky130_fd_sc_hd__and2_4".
+Reading "BM_sky130_fd_sc_hd__o22ai_2".
+Reading "BM_sky130_fd_sc_hd__nand3b_2".
+Reading "BM_sky130_fd_sc_hd__o41a_2".
+Reading "BM_sky130_fd_sc_hd__a21oi_4".
+Reading "BM_sky130_fd_sc_hd__o211a_2".
+Reading "BM_sky130_fd_sc_hd__bufinv_16".
+Reading "BM_sky130_fd_sc_hd__nand2b_4".
+Reading "BM_sky130_fd_sc_hd__mux2_4".
+Reading "BM_sky130_fd_sc_hd__a21boi_4".
+Reading "BM_sky130_fd_sc_hd__nand2_4".
+Reading "BM_sky130_fd_sc_hd__nand3b_4".
+Reading "BM_sky130_fd_sc_hd__a21boi_2".
+Reading "BM_sky130_fd_sc_hd__or2_4".
+Reading "BM_sky130_fd_sc_hd__inv_16".
+Reading "BM_sky130_fd_sc_hd__clkinv_8".
+Reading "BM_sky130_fd_sc_hd__o211ai_2".
+Reading "BM_sky130_fd_sc_hd__inv_8".
+Reading "BM_sky130_fd_sc_hd__o21ba_2".
+Reading "BM_sky130_fd_sc_hd__o32ai_2".
+Reading "BM_sky130_fd_sc_hd__a41o_2".
+Reading "BM_sky130_fd_sc_hd__xor2_2".
+Reading "BM_sky130_fd_sc_hd__inv_12".
+Reading "BM_sky130_fd_sc_hd__xnor2_2".
+Reading "BM_sky130_fd_sc_hd__or4b_4".
+Reading "BM_sky130_fd_sc_hd__o41ai_2".
+Reading "BM_sky130_fd_sc_hd__nor2_4".
+Reading "BM_sky130_fd_sc_hd__o22a_2".
+Reading "BM_sky130_fd_sc_hd__a21oi_2".
+Reading "BM_sky130_fd_sc_hd__a2111oi_2".
+Reading "BM_sky130_fd_sc_hd__or4_4".
+Reading "BM_sky130_fd_sc_hd__and4b_2".
+Reading "BM_sky130_fd_sc_hd__or3_4".
+Reading "BM_sky130_fd_sc_hd__clkbuf_1".
+Reading "BM_sky130_fd_sc_hd__clkinv_2".
+Reading "BM_sky130_fd_sc_hd__o32a_2".
+Reading "BM_sky130_fd_sc_hd__nor3_2".
+Reading "BM_sky130_fd_sc_hd__and2_2".
+Reading "BM_sky130_fd_sc_hd__a211oi_2".
+Reading "BM_sky130_fd_sc_hd__nand3_2".
+Reading "BM_sky130_fd_sc_hd__a2111o_2".
+Reading "BM_sky130_fd_sc_hd__o21ai_4".
+Reading "BM_sky130_fd_sc_hd__or3b_2".
+Reading "BM_sky130_fd_sc_hd__buf_6".
+Reading "BM_sky130_fd_sc_hd__a2bb2o_2".
+Reading "BM_sky130_fd_sc_hd__a31o_2".
+Reading "BM_sky130_fd_sc_hd__or4_2".
+Reading "BM_sky130_fd_sc_hd__clkbuf_2".
+Reading "BM_sky130_fd_sc_hd__and2b_2".
+Reading "BM_sky130_fd_sc_hd__o2111a_2".
+Reading "BM_sky130_fd_sc_hd__o221a_2".
+Reading "BM_sky130_fd_sc_hd__a21o_2".
+Reading "BM_sky130_fd_sc_hd__o2bb2a_2".
+Reading "BM_sky130_fd_sc_hd__a32o_2".
+Reading "BM_sky130_fd_sc_hd__a21bo_2".
+Reading "BM_sky130_fd_sc_hd__o31a_2".
+Reading "BM_sky130_fd_sc_hd__and4_2".
+Reading "BM_sky130_fd_sc_hd__a22oi_2".
+Reading "BM_sky130_fd_sc_hd__o21ai_2".
+Reading "BM_sky130_fd_sc_hd__a221oi_2".
+Reading "BM_sky130_fd_sc_hd__a221o_2".
+Reading "BM_sky130_fd_sc_hd__or2b_2".
+Reading "BM_sky130_fd_sc_hd__or3_2".
+Reading "BM_sky130_fd_sc_hd__nand2b_2".
+Reading "BM_sky130_fd_sc_hd__or2_2".
+Reading "BM_sky130_fd_sc_hd__clkbuf_4".
+Reading "BM_sky130_fd_sc_hd__a22o_2".
+Reading "BM_sky130_fd_sc_hd__a211o_2".
+Reading "BM_sky130_fd_sc_hd__and3_2".
+Reading "BM_sky130_fd_sc_hd__and3b_2".
+Reading "BM_sky130_fd_sc_hd__nor2_2".
+Reading "BM_sky130_fd_sc_hd__clkbuf_8".
+Reading "BM_sky130_fd_sc_hd__o21a_2".
+Reading "BM_sky130_fd_sc_hd__nand2_2".
+Reading "BM_sky130_fd_sc_hd__inv_2".
+Reading "BM_sky130_fd_sc_hd__inv_6".
+Reading "BM_sky130_fd_sc_hd__dfxtp_2".
+Reading "BM_sky130_fd_sc_hd__mux2_2".
+Reading "BM_sky130_fd_sc_hd__buf_2".
+Reading "BM_sky130_fd_sc_hd__mux2_1".
+Reading "BM_sky130_fd_sc_hd__buf_1".
+Reading "BM_sky130_fd_sc_hd__dfrtp_2".
+Reading "BM_sky130_fd_sc_hd__buf_12".
+Reading "BM_sky130_fd_sc_hd__buf_4".
+Reading "BM_sky130_fd_sc_hd__conb_1".
+Reading "BM_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "BM_sky130_fd_sc_hd__dfstp_2".
+Reading "BM_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "BM_sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "BM_sky130_fd_sc_hd__fill_1".
+Reading "BM_sky130_fd_sc_hd__diode_2".
+Reading "BM_sky130_fd_sc_hd__fill_2".
+Reading "BM_sky130_fd_sc_hd__decap_3".
+Reading "project_macro_0_2".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+Reading "sky130_fd_sc_hd__dlclkp_4".
+Reading "sky130_fd_sc_hd__dfxtp_2".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "sky130_fd_sc_hd__dfrtp_4".
+Reading "sky130_fd_sc_hd__clkbuf_8".
+Reading "sky130_fd_sc_hd__dfrtp_2".
+Reading "sky130_fd_sc_hd__dfxtp_4".
+Reading "sky130_fd_sc_hd__mux4_2".
+Reading "sky130_fd_sc_hd__a22o_2".
+Reading "sky130_fd_sc_hd__or4b_2".
+Reading "WP_sky130_fd_sc_hd__decap_3".
+Reading "WP_sky130_fd_sc_hd__fill_2".
+Reading "WP_sky130_fd_sc_hd__diode_2".
+Reading "WP_sky130_fd_sc_hd__buf_4".
+Reading "WP_sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "WP_sky130_fd_sc_hd__fill_1".
+Reading "WP_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "WP_sky130_fd_sc_hd__conb_1".
+Reading "WP_sky130_fd_sc_hd__buf_1".
+Reading "WP_sky130_fd_sc_hd__buf_12".
+Reading "WP_sky130_fd_sc_hd__mux2_1".
+Reading "WP_sky130_fd_sc_hd__dfxtp_2".
+Reading "WP_sky130_fd_sc_hd__clkbuf_4".
+Reading "WP_sky130_fd_sc_hd__mux4_2".
+Reading "WP_sky130_fd_sc_hd__clkbuf_8".
+Reading "WP_sky130_fd_sc_hd__bufinv_16".
+Reading "WP_sky130_fd_sc_hd__buf_2".
+Reading "WP_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "WP_sky130_fd_sc_hd__clkinv_2".
+Reading "WP_sky130_fd_sc_hd__clkbuf_1".
+Reading "WP_sky130_fd_sc_hd__clkbuf_2".
+Reading "WP_sky130_fd_sc_hd__buf_6".
+Reading "WP_sky130_fd_sc_hd__clkbuf_16".
+Reading "WP_sky130_fd_sc_hd__clkinvlp_4".
+Reading "WP_sky130_fd_sc_hd__inv_6".
+Reading "WP_sky130_fd_sc_hd__dfrtp_2".
+Reading "WP_sky130_fd_sc_hd__or3_2".
+Reading "WP_sky130_fd_sc_hd__or2_4".
+Reading "WP_sky130_fd_sc_hd__mux2_2".
+Reading "WP_sky130_fd_sc_hd__nand2_2".
+Reading "WP_sky130_fd_sc_hd__a21o_2".
+Reading "WP_sky130_fd_sc_hd__a211oi_2".
+Reading "WP_sky130_fd_sc_hd__or3b_2".
+Reading "WP_sky130_fd_sc_hd__and3_4".
+Reading "WP_sky130_fd_sc_hd__a31o_2".
+Reading "WP_sky130_fd_sc_hd__and4b_2".
+Reading "WP_sky130_fd_sc_hd__nor2_2".
+Reading "WP_sky130_fd_sc_hd__a211o_2".
+Reading "WP_sky130_fd_sc_hd__o22a_2".
+Reading "WP_sky130_fd_sc_hd__or2_2".
+Reading "WP_sky130_fd_sc_hd__o211ai_2".
+Reading "WP_sky130_fd_sc_hd__or3b_4".
+Reading "WP_sky130_fd_sc_hd__and2b_2".
+Reading "WP_sky130_fd_sc_hd__xnor2_2".
+Reading "WP_sky130_fd_sc_hd__o211a_2".
+Reading "WP_sky130_fd_sc_hd__or3_4".
+Reading "WP_sky130_fd_sc_hd__a21bo_2".
+Reading "WP_sky130_fd_sc_hd__a21boi_2".
+Reading "WP_sky130_fd_sc_hd__o21a_2".
+Reading "WP_sky130_fd_sc_hd__and3_2".
+Reading "WP_sky130_fd_sc_hd__inv_2".
+Reading "WP_sky130_fd_sc_hd__a22o_2".
+Reading "WP_sky130_fd_sc_hd__a221o_2".
+Reading "WP_sky130_fd_sc_hd__o221a_2".
+Reading "WP_sky130_fd_sc_hd__a21oi_2".
+Reading "WP_sky130_fd_sc_hd__nand3_2".
+Reading "WP_sky130_fd_sc_hd__and2_2".
+Reading "WP_sky130_fd_sc_hd__xor2_2".
+Reading "WP_sky130_fd_sc_hd__or4_4".
+Reading "WP_sky130_fd_sc_hd__nor3_2".
+Reading "WP_sky130_fd_sc_hd__a22oi_2".
+Reading "WP_sky130_fd_sc_hd__o21ai_2".
+Reading "WP_sky130_fd_sc_hd__dfrtp_4".
+Reading "WP_sky130_fd_sc_hd__a31oi_2".
+Reading "WP_sky130_fd_sc_hd__a2bb2o_2".
+Reading "WP_sky130_fd_sc_hd__o31a_2".
+Reading "WP_sky130_fd_sc_hd__o31ai_2".
+Reading "WP_sky130_fd_sc_hd__and2_4".
+Reading "WP_sky130_fd_sc_hd__or4_2".
+Reading "WP_sky130_fd_sc_hd__buf_8".
+Reading "WP_sky130_fd_sc_hd__a2111o_2".
+Reading "WP_sky130_fd_sc_hd__and4_2".
+Reading "WP_sky130_fd_sc_hd__a211o_4".
+Reading "WP_sky130_fd_sc_hd__nand4_2".
+Reading "WP_sky130_fd_sc_hd__o311ai_2".
+Reading "WP_sky130_fd_sc_hd__o21ba_2".
+Reading "WP_sky130_fd_sc_hd__o2bb2a_4".
+Reading "WP_sky130_fd_sc_hd__or2b_2".
+Reading "WP_sky130_fd_sc_hd__nor2b_2".
+Reading "WP_sky130_fd_sc_hd__and3b_2".
+Reading "WP_sky130_fd_sc_hd__mux2_4".
+Reading "WP_sky130_fd_sc_hd__a2111oi_4".
+Reading "WP_sky130_fd_sc_hd__nor4b_2".
+Reading "WP_sky130_fd_sc_hd__o41a_2".
+Reading "WP_sky130_fd_sc_hd__nor4_2".
+Reading "WP_sky130_fd_sc_hd__nand2b_2".
+Reading "WP_sky130_fd_sc_hd__a32oi_4".
+Reading "WP_sky130_fd_sc_hd__xor2_4".
+Reading "WP_sky130_fd_sc_hd__o211a_4".
+Reading "WP_sky130_fd_sc_hd__xnor2_4".
+Reading "WP_sky130_fd_sc_hd__or4b_2".
+Reading "WP_sky130_fd_sc_hd__o2111a_2".
+Reading "WP_sky130_fd_sc_hd__a21o_4".
+Reading "WP_sky130_fd_sc_hd__a21oi_4".
+Reading "WP_sky130_fd_sc_hd__and4bb_2".
+Reading "WP_sky130_fd_sc_hd__o2bb2a_2".
+Reading "WP_sky130_fd_sc_hd__o311a_2".
+Reading "WP_sky130_fd_sc_hd__o32a_2".
+Reading "WP_sky130_fd_sc_hd__and4_4".
+Reading "WP_sky130_fd_sc_hd__clkinv_1".
+Reading "WP_sky130_fd_sc_hd__o41ai_2".
+Reading "WP_sky130_fd_sc_hd__a31oi_4".
+Reading "WP_sky130_fd_sc_hd__a311o_2".
+Reading "WP_sky130_fd_sc_hd__o21bai_2".
+Reading "WP_sky130_fd_sc_hd__a41o_2".
+Reading "WP_sky130_fd_sc_hd__nand2b_4".
+Reading "WP_sky130_fd_sc_hd__a32o_4".
+Reading "WP_sky130_fd_sc_hd__nand2_4".
+Reading "WP_sky130_fd_sc_hd__a32o_2".
+Reading "WP_sky130_fd_sc_hd__inv_4".
+Reading "WP_sky130_fd_sc_hd__nor2_4".
+Reading "WP_sky130_fd_sc_hd__or4b_4".
+Reading "WP_sky130_fd_sc_hd__a221oi_2".
+Reading "WP_sky130_fd_sc_hd__nand4b_2".
+Reading "WP_sky130_fd_sc_hd__nand3_1".
+Reading "WP_sky130_fd_sc_hd__nand3b_2".
+Reading "WP_sky130_fd_sc_hd__a32oi_2".
+Reading "WP_sky130_fd_sc_hd__o21ai_4".
+Reading "WP_sky130_fd_sc_hd__or4bb_2".
+Reading "WP_sky130_fd_sc_hd__inv_8".
+Reading "WP_sky130_fd_sc_hd__dfstp_2".
+Reading "WP_sky130_fd_sc_hd__nor2_1".
+Reading "WP_sky130_fd_sc_hd__a31o_4".
+Reading "WP_sky130_fd_sc_hd__o22ai_2".
+Reading "WP_sky130_fd_sc_hd__o221ai_2".
+Reading "project_macro_1_0".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+Reading "RE_sky130_fd_sc_hd__and4bb_2".
+Reading "RE_sky130_fd_sc_hd__nor4_2".
+Reading "RE_sky130_fd_sc_hd__dfstp_2".
+Reading "RE_sky130_fd_sc_hd__o21ai_1".
+Reading "RE_sky130_fd_sc_hd__nor3_4".
+Reading "RE_sky130_fd_sc_hd__nor3b_4".
+Reading "RE_sky130_fd_sc_hd__buf_12".
+Reading "RE_sky130_fd_sc_hd__a41o_2".
+Reading "RE_sky130_fd_sc_hd__o211a_1".
+Reading "RE_sky130_fd_sc_hd__and2_4".
+Reading "RE_sky130_fd_sc_hd__buf_8".
+Reading "RE_sky130_fd_sc_hd__a2111oi_2".
+Reading "RE_sky130_fd_sc_hd__a32oi_2".
+Reading "RE_sky130_fd_sc_hd__o2111a_2".
+Reading "RE_sky130_fd_sc_hd__a2111o_2".
+Reading "RE_sky130_fd_sc_hd__o221ai_2".
+Reading "RE_sky130_fd_sc_hd__o311ai_1".
+Reading "RE_sky130_fd_sc_hd__a31oi_4".
+Reading "RE_sky130_fd_sc_hd__inv_6".
+Reading "RE_sky130_fd_sc_hd__nor2_4".
+Reading "RE_sky130_fd_sc_hd__o31ai_2".
+Reading "RE_sky130_fd_sc_hd__o22ai_2".
+Reading "RE_sky130_fd_sc_hd__o31a_2".
+Reading "RE_sky130_fd_sc_hd__o41a_2".
+Reading "RE_sky130_fd_sc_hd__and4b_2".
+Reading "RE_sky130_fd_sc_hd__bufinv_16".
+Reading "RE_sky130_fd_sc_hd__clkinvlp_4".
+Reading "RE_sky130_fd_sc_hd__clkinv_2".
+Reading "RE_sky130_fd_sc_hd__o311a_2".
+Reading "RE_sky130_fd_sc_hd__inv_8".
+Reading "RE_sky130_fd_sc_hd__clkbuf_16".
+Reading "RE_sky130_fd_sc_hd__o311ai_2".
+Reading "RE_sky130_fd_sc_hd__or4_2".
+Reading "RE_sky130_fd_sc_hd__buf_6".
+Reading "RE_sky130_fd_sc_hd__a21boi_2".
+Reading "RE_sky130_fd_sc_hd__a31oi_2".
+Reading "RE_sky130_fd_sc_hd__a32o_2".
+Reading "RE_sky130_fd_sc_hd__xnor2_4".
+Reading "RE_sky130_fd_sc_hd__a21oi_4".
+Reading "RE_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "RE_sky130_fd_sc_hd__clkbuf_1".
+Reading "RE_sky130_fd_sc_hd__nor3_1".
+Reading "RE_sky130_fd_sc_hd__a211oi_1".
+Reading "RE_sky130_fd_sc_hd__nand3b_2".
+Reading "RE_sky130_fd_sc_hd__buf_2".
+Reading "RE_sky130_fd_sc_hd__a311o_2".
+Reading "RE_sky130_fd_sc_hd__a22oi_2".
+Reading "RE_sky130_fd_sc_hd__o32a_2".
+Reading "RE_sky130_fd_sc_hd__o2bb2ai_2".
+Reading "RE_sky130_fd_sc_hd__buf_1".
+Reading "RE_sky130_fd_sc_hd__nor2_1".
+Reading "RE_sky130_fd_sc_hd__diode_2".
+Reading "RE_sky130_fd_sc_hd__a221o_2".
+Reading "RE_sky130_fd_sc_hd__nand4_2".
+Reading "RE_sky130_fd_sc_hd__inv_4".
+Reading "RE_sky130_fd_sc_hd__clkbuf_4".
+Reading "RE_sky130_fd_sc_hd__clkinv_4".
+Reading "RE_sky130_fd_sc_hd__o22a_2".
+Reading "RE_sky130_fd_sc_hd__and4_2".
+Reading "RE_sky130_fd_sc_hd__o211ai_2".
+Reading "RE_sky130_fd_sc_hd__or4b_2".
+Reading "RE_sky130_fd_sc_hd__o2bb2a_2".
+Reading "RE_sky130_fd_sc_hd__a22o_2".
+Reading "RE_sky130_fd_sc_hd__clkbuf_8".
+Reading "RE_sky130_fd_sc_hd__dfxtp_2".
+Reading "RE_sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "RE_sky130_fd_sc_hd__nor3b_2".
+Reading "RE_sky130_fd_sc_hd__a21bo_2".
+Reading "RE_sky130_fd_sc_hd__a211o_2".
+Reading "RE_sky130_fd_sc_hd__or4bb_2".
+Reading "RE_sky130_fd_sc_hd__a2bb2o_2".
+Reading "RE_sky130_fd_sc_hd__buf_4".
+Reading "RE_sky130_fd_sc_hd__mux2_1".
+Reading "RE_sky130_fd_sc_hd__or3b_2".
+Reading "RE_sky130_fd_sc_hd__nand3_2".
+Reading "RE_sky130_fd_sc_hd__clkbuf_2".
+Reading "RE_sky130_fd_sc_hd__a31o_2".
+Reading "RE_sky130_fd_sc_hd__and3b_2".
+Reading "RE_sky130_fd_sc_hd__a211oi_2".
+Reading "RE_sky130_fd_sc_hd__o21bai_2".
+Reading "RE_sky130_fd_sc_hd__inv_2".
+Reading "RE_sky130_fd_sc_hd__dfrtp_2".
+Reading "RE_sky130_fd_sc_hd__nand2_2".
+Reading "RE_sky130_fd_sc_hd__o211a_2".
+Reading "RE_sky130_fd_sc_hd__or3_2".
+Reading "RE_sky130_fd_sc_hd__o21ba_2".
+Reading "RE_sky130_fd_sc_hd__o21ai_2".
+Reading "RE_sky130_fd_sc_hd__or2_2".
+Reading "RE_sky130_fd_sc_hd__nand2b_2".
+Reading "RE_sky130_fd_sc_hd__o21a_2".
+Reading "RE_sky130_fd_sc_hd__nor3_2".
+Reading "RE_sky130_fd_sc_hd__and3_2".
+Reading "RE_sky130_fd_sc_hd__a21oi_2".
+Reading "RE_sky130_fd_sc_hd__and2b_2".
+Reading "RE_sky130_fd_sc_hd__xor2_2".
+Reading "RE_sky130_fd_sc_hd__nor2_2".
+Reading "RE_sky130_fd_sc_hd__and2_2".
+Reading "RE_sky130_fd_sc_hd__a21o_2".
+Reading "RE_sky130_fd_sc_hd__xnor2_2".
+Reading "RE_sky130_fd_sc_hd__fill_2".
+Reading "RE_sky130_fd_sc_hd__conb_1".
+Reading "RE_sky130_fd_sc_hd__fill_1".
+Reading "RE_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "RE_sky130_fd_sc_hd__decap_3".
+Reading "project_macro_1_1".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+Reading "RW_sky130_fd_sc_hd__decap_3".
+Reading "RW_sky130_fd_sc_hd__fill_2".
+Reading "RW_sky130_fd_sc_hd__diode_2".
+Reading "RW_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "RW_sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "RW_sky130_fd_sc_hd__fill_1".
+Reading "RW_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "RW_sky130_fd_sc_hd__conb_1".
+Reading "RW_sky130_fd_sc_hd__buf_1".
+Reading "RW_sky130_fd_sc_hd__and2b_2".
+Reading "RW_sky130_fd_sc_hd__buf_6".
+Reading "RW_sky130_fd_sc_hd__buf_12".
+Reading "RW_sky130_fd_sc_hd__dfxtp_2".
+Reading "RW_sky130_fd_sc_hd__and3_2".
+Reading "RW_sky130_fd_sc_hd__a22o_2".
+Reading "RW_sky130_fd_sc_hd__dfrtp_2".
+Reading "RW_sky130_fd_sc_hd__or3b_2".
+Reading "RW_sky130_fd_sc_hd__a21oi_2".
+Reading "RW_sky130_fd_sc_hd__buf_2".
+Reading "RW_sky130_fd_sc_hd__a21o_2".
+Reading "RW_sky130_fd_sc_hd__clkbuf_2".
+Reading "RW_sky130_fd_sc_hd__a211oi_2".
+Reading "RW_sky130_fd_sc_hd__mux2_1".
+Reading "RW_sky130_fd_sc_hd__clkbuf_8".
+Reading "RW_sky130_fd_sc_hd__and2_2".
+Reading "RW_sky130_fd_sc_hd__clkinv_1".
+Reading "RW_sky130_fd_sc_hd__or2_2".
+Reading "RW_sky130_fd_sc_hd__nand2_2".
+Reading "RW_sky130_fd_sc_hd__a32o_2".
+Reading "RW_sky130_fd_sc_hd__nor2_4".
+Reading "RW_sky130_fd_sc_hd__nor3b_2".
+Reading "RW_sky130_fd_sc_hd__a31o_2".
+Reading "RW_sky130_fd_sc_hd__a221o_2".
+Reading "RW_sky130_fd_sc_hd__inv_2".
+Reading "RW_sky130_fd_sc_hd__bufinv_16".
+Reading "RW_sky130_fd_sc_hd__inv_4".
+Reading "RW_sky130_fd_sc_hd__and4bb_2".
+Reading "RW_sky130_fd_sc_hd__or3_2".
+Reading "RW_sky130_fd_sc_hd__nand3b_2".
+Reading "RW_sky130_fd_sc_hd__and4bb_1".
+Reading "RW_sky130_fd_sc_hd__nor2_2".
+Reading "RW_sky130_fd_sc_hd__clkbuf_4".
+Reading "RW_sky130_fd_sc_hd__o31ai_2".
+Reading "RW_sky130_fd_sc_hd__o31ai_4".
+Reading "RW_sky130_fd_sc_hd__clkinv_2".
+Reading "RW_sky130_fd_sc_hd__buf_4".
+Reading "RW_sky130_fd_sc_hd__dfrtp_4".
+Reading "RW_sky130_fd_sc_hd__clkbuf_1".
+Reading "RW_sky130_fd_sc_hd__a211o_2".
+Reading "RW_sky130_fd_sc_hd__nor4_2".
+Reading "RW_sky130_fd_sc_hd__nor3b_4".
+Reading "RW_sky130_fd_sc_hd__and2_4".
+Reading "RW_sky130_fd_sc_hd__mux4_2".
+Reading "RW_sky130_fd_sc_hd__o221a_2".
+Reading "RW_sky130_fd_sc_hd__o211a_2".
+Reading "RW_sky130_fd_sc_hd__o21a_2".
+Reading "RW_sky130_fd_sc_hd__inv_6".
+Reading "RW_sky130_fd_sc_hd__clkinv_8".
+Reading "RW_sky130_fd_sc_hd__a41o_2".
+Reading "RW_sky130_fd_sc_hd__nand2b_2".
+Reading "RW_sky130_fd_sc_hd__inv_12".
+Reading "RW_sky130_fd_sc_hd__o21ba_2".
+Reading "RW_sky130_fd_sc_hd__clkinvlp_4".
+Reading "RW_sky130_fd_sc_hd__xnor2_2".
+Reading "RW_sky130_fd_sc_hd__o22a_2".
+Reading "RW_sky130_fd_sc_hd__a2bb2o_2".
+Reading "RW_sky130_fd_sc_hd__o21ai_2".
+Reading "RW_sky130_fd_sc_hd__o2bb2a_2".
+Reading "RW_sky130_fd_sc_hd__a2111o_2".
+Reading "RW_sky130_fd_sc_hd__mux2_2".
+Reading "RW_sky130_fd_sc_hd__clkinv_4".
+Reading "RW_sky130_fd_sc_hd__and4_2".
+Reading "RW_sky130_fd_sc_hd__or2_4".
+Reading "RW_sky130_fd_sc_hd__nand2_4".
+Reading "RW_sky130_fd_sc_hd__or4_1".
+Reading "RW_sky130_fd_sc_hd__and4b_2".
+Reading "RW_sky130_fd_sc_hd__or4b_2".
+Reading "RW_sky130_fd_sc_hd__nand4_4".
+Reading "RW_sky130_fd_sc_hd__a211oi_4".
+Reading "RW_sky130_fd_sc_hd__a22oi_2".
+Reading "RW_sky130_fd_sc_hd__nand3_2".
+Reading "RW_sky130_fd_sc_hd__o31a_2".
+Reading "RW_sky130_fd_sc_hd__xor2_2".
+Reading "RW_sky130_fd_sc_hd__o21ai_4".
+Reading "RW_sky130_fd_sc_hd__o32a_2".
+Reading "RW_sky130_fd_sc_hd__dfxtp_4".
+Reading "RW_sky130_fd_sc_hd__inv_8".
+Reading "RW_sky130_fd_sc_hd__buf_8".
+Reading "RW_sky130_fd_sc_hd__o21bai_4".
+Reading "RW_sky130_fd_sc_hd__or4bb_1".
+Reading "RW_sky130_fd_sc_hd__o32ai_2".
+Reading "RW_sky130_fd_sc_hd__and3b_2".
+Reading "RW_sky130_fd_sc_hd__and2b_4".
+Reading "RW_sky130_fd_sc_hd__nand2b_4".
+Reading "RW_sky130_fd_sc_hd__or4_2".
+Reading "RW_sky130_fd_sc_hd__o311a_2".
+Reading "RW_sky130_fd_sc_hd__o41a_2".
+Reading "RW_sky130_fd_sc_hd__nor4_4".
+Reading "RW_sky130_fd_sc_hd__or3b_4".
+Reading "RW_sky130_fd_sc_hd__nor4_1".
+Reading "RW_sky130_fd_sc_hd__clkbuf_16".
+Reading "RW_sky130_fd_sc_hd__nor2_1".
+Reading "RW_sky130_fd_sc_hd__nor3_4".
+Reading "RW_sky130_fd_sc_hd__xor2_4".
+Reading "RW_sky130_fd_sc_hd__a21bo_2".
+Reading "RW_sky130_fd_sc_hd__xnor2_4".
+Reading "RW_sky130_fd_sc_hd__o31ai_1".
+Reading "RW_sky130_fd_sc_hd__nand2_8".
+Reading "RW_sky130_fd_sc_hd__o21bai_2".
+Reading "RW_sky130_fd_sc_hd__o21ai_1".
+Reading "RW_sky130_fd_sc_hd__o211ai_2".
+Reading "RW_sky130_fd_sc_hd__a311o_2".
+Reading "RW_sky130_fd_sc_hd__o22ai_4".
+Reading "RW_sky130_fd_sc_hd__a21boi_2".
+Reading "RW_sky130_fd_sc_hd__a21oi_4".
+Reading "RW_sky130_fd_sc_hd__a31oi_2".
+Reading "RW_sky130_fd_sc_hd__o2111a_2".
+Reading "RW_sky130_fd_sc_hd__xor2_1".
+Reading "RW_sky130_fd_sc_hd__nand4_2".
+Reading "RW_sky130_fd_sc_hd__o211ai_4".
+Reading "project_macro_1_2".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+Reading "sky130_fd_sc_hd__inv_2".
+Reading "sky130_fd_sc_hd__a21o_2".
+Reading "sky130_fd_sc_hd__nor2_4".
+Reading "sky130_fd_sc_hd__a31o_2".
+Reading "sky130_fd_sc_hd__and3b_2".
+Reading "vssd1_connection".
+Reading "Z0_sky130_fd_sc_hd__decap_3".
+Reading "Z0_sky130_fd_sc_hd__fill_1".
+Reading "Z0_sky130_fd_sc_hd__fill_2".
+Reading "Z0_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "Z0_sky130_fd_sc_hd__buf_4".
+Reading "Z0_sky130_fd_sc_hd__buf_12".
+Reading "Z0_sky130_fd_sc_hd__conb_1".
+Reading "Z0_sky130_fd_sc_hd__nand2_1".
+Reading "Z0_sky130_fd_sc_hd__xor2_1".
+Reading "Z0_sky130_fd_sc_hd__dfxtp_1".
+Reading "Z0_sky130_fd_sc_hd__buf_2".
+Reading "Z0_sky130_fd_sc_hd__clkbuf_16".
+Reading "Z0_sky130_fd_sc_hd__inv_1".
+Reading "Z0_sky130_fd_sc_hd__xor3_1".
+Reading "Z0_sky130_fd_sc_hd__clkbuf_2".
+Reading "Z0_sky130_fd_sc_hd__clkbuf_4".
+Reading "project_macro_2_0".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+    225000 uses
+    230000 uses
+    235000 uses
+    240000 uses
+    245000 uses
+    250000 uses
+Reading "UP_sky130_fd_sc_hd__buf_12".
+Reading "UP_sky130_fd_sc_hd__nand3b_2".
+Reading "UP_sky130_fd_sc_hd__a32o_2".
+Reading "UP_sky130_fd_sc_hd__o2111a_2".
+Reading "UP_sky130_fd_sc_hd__mux4_2".
+Reading "UP_sky130_fd_sc_hd__o32a_2".
+Reading "UP_sky130_fd_sc_hd__o221a_2".
+Reading "UP_sky130_fd_sc_hd__a221o_2".
+Reading "UP_sky130_fd_sc_hd__dfstp_2".
+Reading "UP_sky130_fd_sc_hd__buf_1".
+Reading "UP_sky130_fd_sc_hd__nand4_2".
+Reading "UP_sky130_fd_sc_hd__bufinv_16".
+Reading "UP_sky130_fd_sc_hd__nor4_2".
+Reading "UP_sky130_fd_sc_hd__a31oi_2".
+Reading "UP_sky130_fd_sc_hd__o211ai_2".
+Reading "UP_sky130_fd_sc_hd__or4bb_2".
+Reading "UP_sky130_fd_sc_hd__o22ai_2".
+Reading "UP_sky130_fd_sc_hd__o41a_2".
+Reading "UP_sky130_fd_sc_hd__clkbuf_16".
+Reading "UP_sky130_fd_sc_hd__inv_12".
+Reading "UP_sky130_fd_sc_hd__o311a_2".
+Reading "UP_sky130_fd_sc_hd__a2bb2o_2".
+Reading "UP_sky130_fd_sc_hd__diode_2".
+Reading "UP_sky130_fd_sc_hd__dfrtp_2".
+Reading "UP_sky130_fd_sc_hd__o2bb2a_2".
+Reading "UP_sky130_fd_sc_hd__nor4_4".
+Reading "UP_sky130_fd_sc_hd__buf_4".
+Reading "UP_sky130_fd_sc_hd__xnor2_4".
+Reading "UP_sky130_fd_sc_hd__buf_8".
+Reading "UP_sky130_fd_sc_hd__mux2_1".
+Reading "UP_sky130_fd_sc_hd__buf_2".
+Reading "UP_sky130_fd_sc_hd__o21bai_2".
+Reading "UP_sky130_fd_sc_hd__a22oi_2".
+Reading "UP_sky130_fd_sc_hd__buf_6".
+Reading "UP_sky130_fd_sc_hd__a21bo_2".
+Reading "UP_sky130_fd_sc_hd__a41o_2".
+Reading "UP_sky130_fd_sc_hd__clkinvlp_4".
+Reading "UP_sky130_fd_sc_hd__a2111o_2".
+Reading "UP_sky130_fd_sc_hd__and4_2".
+Reading "UP_sky130_fd_sc_hd__or4b_2".
+Reading "UP_sky130_fd_sc_hd__o31a_2".
+Reading "UP_sky130_fd_sc_hd__clkbuf_4".
+Reading "UP_sky130_fd_sc_hd__and4b_2".
+Reading "UP_sky130_fd_sc_hd__a22o_2".
+Reading "UP_sky130_fd_sc_hd__a221oi_2".
+Reading "UP_sky130_fd_sc_hd__a21oi_2".
+Reading "UP_sky130_fd_sc_hd__a311o_2".
+Reading "UP_sky130_fd_sc_hd__nor3b_2".
+Reading "UP_sky130_fd_sc_hd__or4_2".
+Reading "UP_sky130_fd_sc_hd__nor3_2".
+Reading "UP_sky130_fd_sc_hd__or3_2".
+Reading "UP_sky130_fd_sc_hd__o21ai_2".
+Reading "UP_sky130_fd_sc_hd__o21ba_2".
+Reading "UP_sky130_fd_sc_hd__o22a_2".
+Reading "UP_sky130_fd_sc_hd__or3b_2".
+Reading "UP_sky130_fd_sc_hd__a31o_2".
+Reading "UP_sky130_fd_sc_hd__clkbuf_8".
+Reading "UP_sky130_fd_sc_hd__clkinv_2".
+Reading "UP_sky130_fd_sc_hd__a21boi_2".
+Reading "UP_sky130_fd_sc_hd__nand3_2".
+Reading "UP_sky130_fd_sc_hd__and3b_2".
+Reading "UP_sky130_fd_sc_hd__and2b_2".
+Reading "UP_sky130_fd_sc_hd__a211o_2".
+Reading "UP_sky130_fd_sc_hd__clkbuf_2".
+Reading "UP_sky130_fd_sc_hd__o31ai_2".
+Reading "UP_sky130_fd_sc_hd__a21o_2".
+Reading "UP_sky130_fd_sc_hd__and3_2".
+Reading "UP_sky130_fd_sc_hd__o21a_2".
+Reading "UP_sky130_fd_sc_hd__nand2b_2".
+Reading "UP_sky130_fd_sc_hd__xor2_2".
+Reading "UP_sky130_fd_sc_hd__nor2_2".
+Reading "UP_sky130_fd_sc_hd__and2_2".
+Reading "UP_sky130_fd_sc_hd__or2_2".
+Reading "UP_sky130_fd_sc_hd__inv_2".
+Reading "UP_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "UP_sky130_fd_sc_hd__xnor2_2".
+Reading "UP_sky130_fd_sc_hd__nand2_2".
+Reading "UP_sky130_fd_sc_hd__o211a_2".
+Reading "UP_sky130_fd_sc_hd__dfxtp_2".
+Reading "UP_sky130_fd_sc_hd__fill_2".
+Reading "UP_sky130_fd_sc_hd__conb_1".
+Reading "UP_sky130_fd_sc_hd__fill_1".
+Reading "UP_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "UP_sky130_fd_sc_hd__decap_3".
+Reading "project_macro_2_1".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+    225000 uses
+    230000 uses
+    235000 uses
+    240000 uses
+    245000 uses
+Reading "MM_sky130_fd_sc_hd__decap_3".
+Reading "MM_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "MM_sky130_fd_sc_hd__fill_1".
+Reading "MM_sky130_fd_sc_hd__buf_4".
+Reading "MM_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "MM_sky130_fd_sc_hd__fill_2".
+Reading "MM_sky130_fd_sc_hd__buf_12".
+Reading "MM_sky130_fd_sc_hd__conb_1".
+Reading "MM_sky130_fd_sc_hd__buf_2".
+Reading "MM_sky130_fd_sc_hd__and3_2".
+Reading "MM_sky130_fd_sc_hd__o21a_2".
+Reading "MM_sky130_fd_sc_hd__xnor2_2".
+Reading "MM_sky130_fd_sc_hd__buf_1".
+Reading "MM_sky130_fd_sc_hd__and2_2".
+Reading "MM_sky130_fd_sc_hd__a21o_2".
+Reading "MM_sky130_fd_sc_hd__dfrtp_2".
+Reading "MM_sky130_fd_sc_hd__clkbuf_4".
+Reading "MM_sky130_fd_sc_hd__mux2_1".
+Reading "MM_sky130_fd_sc_hd__mux4_2".
+Reading "MM_sky130_fd_sc_hd__clkbuf_1".
+Reading "MM_sky130_fd_sc_hd__clkbuf_8".
+Reading "MM_sky130_fd_sc_hd__bufinv_16".
+Reading "MM_sky130_fd_sc_hd__clkinv_2".
+Reading "MM_sky130_fd_sc_hd__clkbuf_2".
+Reading "MM_sky130_fd_sc_hd__diode_2".
+Reading "MM_sky130_fd_sc_hd__inv_6".
+Reading "MM_sky130_fd_sc_hd__inv_2".
+Reading "MM_sky130_fd_sc_hd__dfstp_2".
+Reading "MM_sky130_fd_sc_hd__inv_4".
+Reading "MM_sky130_fd_sc_hd__or2_2".
+Reading "MM_sky130_fd_sc_hd__a22o_4".
+Reading "MM_sky130_fd_sc_hd__buf_6".
+Reading "MM_sky130_fd_sc_hd__nand2_2".
+Reading "MM_sky130_fd_sc_hd__xor2_2".
+Reading "MM_sky130_fd_sc_hd__a2bb2o_4".
+Reading "MM_sky130_fd_sc_hd__a22o_2".
+Reading "MM_sky130_fd_sc_hd__nor2_2".
+Reading "MM_sky130_fd_sc_hd__mux2_4".
+Reading "MM_sky130_fd_sc_hd__dfxtp_2".
+Reading "MM_sky130_fd_sc_hd__or2_4".
+Reading "MM_sky130_fd_sc_hd__or4b_4".
+Reading "MM_sky130_fd_sc_hd__or4_4".
+Reading "MM_sky130_fd_sc_hd__a21oi_2".
+Reading "MM_sky130_fd_sc_hd__and4_2".
+Reading "MM_sky130_fd_sc_hd__nand3b_2".
+Reading "MM_sky130_fd_sc_hd__a21bo_2".
+Reading "MM_sky130_fd_sc_hd__clkbuf_16".
+Reading "MM_sky130_fd_sc_hd__xnor2_4".
+Reading "MM_sky130_fd_sc_hd__a31o_2".
+Reading "project_macro_2_2".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+    225000 uses
+    230000 uses
+    235000 uses
+    240000 uses
+    245000 uses
+Reading "G2_sky130_fd_sc_hd__decap_3".
+Reading "G2_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "G2_sky130_fd_sc_hd__fill_1".
+Reading "G2_sky130_fd_sc_hd__buf_4".
+Reading "G2_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "G2_sky130_fd_sc_hd__fill_2".
+Reading "G2_sky130_fd_sc_hd__buf_12".
+Reading "G2_sky130_fd_sc_hd__conb_1".
+Reading "G2_sky130_fd_sc_hd__buf_2".
+Reading "G2_sky130_fd_sc_hd__and3_2".
+Reading "G2_sky130_fd_sc_hd__o21a_2".
+Reading "G2_sky130_fd_sc_hd__xnor2_2".
+Reading "G2_sky130_fd_sc_hd__buf_1".
+Reading "G2_sky130_fd_sc_hd__and2_2".
+Reading "G2_sky130_fd_sc_hd__a21o_2".
+Reading "G2_sky130_fd_sc_hd__dfrtp_2".
+Reading "G2_sky130_fd_sc_hd__clkbuf_4".
+Reading "G2_sky130_fd_sc_hd__mux2_1".
+Reading "G2_sky130_fd_sc_hd__mux4_2".
+Reading "G2_sky130_fd_sc_hd__clkbuf_1".
+Reading "G2_sky130_fd_sc_hd__clkbuf_8".
+Reading "G2_sky130_fd_sc_hd__bufinv_16".
+Reading "G2_sky130_fd_sc_hd__clkinv_2".
+Reading "G2_sky130_fd_sc_hd__clkbuf_2".
+Reading "G2_sky130_fd_sc_hd__diode_2".
+Reading "G2_sky130_fd_sc_hd__inv_6".
+Reading "G2_sky130_fd_sc_hd__inv_2".
+Reading "G2_sky130_fd_sc_hd__dfstp_2".
+Reading "G2_sky130_fd_sc_hd__inv_4".
+Reading "G2_sky130_fd_sc_hd__or2_2".
+Reading "G2_sky130_fd_sc_hd__a22o_4".
+Reading "G2_sky130_fd_sc_hd__buf_6".
+Reading "G2_sky130_fd_sc_hd__nand2_2".
+Reading "G2_sky130_fd_sc_hd__xor2_2".
+Reading "G2_sky130_fd_sc_hd__a2bb2o_4".
+Reading "G2_sky130_fd_sc_hd__a22o_2".
+Reading "G2_sky130_fd_sc_hd__nor2_2".
+Reading "G2_sky130_fd_sc_hd__mux2_4".
+Reading "G2_sky130_fd_sc_hd__dfxtp_2".
+Reading "G2_sky130_fd_sc_hd__or2_4".
+Reading "G2_sky130_fd_sc_hd__or4b_4".
+Reading "G2_sky130_fd_sc_hd__or4_4".
+Reading "G2_sky130_fd_sc_hd__a21oi_2".
+Reading "G2_sky130_fd_sc_hd__and4_2".
+Reading "G2_sky130_fd_sc_hd__nand3b_2".
+Reading "G2_sky130_fd_sc_hd__a21bo_2".
+Reading "G2_sky130_fd_sc_hd__clkbuf_16".
+Reading "G2_sky130_fd_sc_hd__xnor2_4".
+Reading "G2_sky130_fd_sc_hd__a31o_2".
+Reading "project_macro_3_0".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+    225000 uses
+    230000 uses
+    235000 uses
+    240000 uses
+    245000 uses
+Reading "KW_sky130_fd_sc_hd__decap_3".
+Reading "KW_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "KW_sky130_fd_sc_hd__fill_1".
+Reading "KW_sky130_fd_sc_hd__buf_4".
+Reading "KW_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "KW_sky130_fd_sc_hd__fill_2".
+Reading "KW_sky130_fd_sc_hd__buf_12".
+Reading "KW_sky130_fd_sc_hd__conb_1".
+Reading "KW_sky130_fd_sc_hd__buf_2".
+Reading "KW_sky130_fd_sc_hd__and3_2".
+Reading "KW_sky130_fd_sc_hd__o21a_2".
+Reading "KW_sky130_fd_sc_hd__xnor2_2".
+Reading "KW_sky130_fd_sc_hd__buf_1".
+Reading "KW_sky130_fd_sc_hd__and2_2".
+Reading "KW_sky130_fd_sc_hd__a21o_2".
+Reading "KW_sky130_fd_sc_hd__dfrtp_2".
+Reading "KW_sky130_fd_sc_hd__clkbuf_4".
+Reading "KW_sky130_fd_sc_hd__mux2_1".
+Reading "KW_sky130_fd_sc_hd__mux4_2".
+Reading "KW_sky130_fd_sc_hd__clkbuf_1".
+Reading "KW_sky130_fd_sc_hd__clkbuf_8".
+Reading "KW_sky130_fd_sc_hd__bufinv_16".
+Reading "KW_sky130_fd_sc_hd__clkinv_2".
+Reading "KW_sky130_fd_sc_hd__clkbuf_2".
+Reading "KW_sky130_fd_sc_hd__diode_2".
+Reading "KW_sky130_fd_sc_hd__inv_6".
+Reading "KW_sky130_fd_sc_hd__inv_2".
+Reading "KW_sky130_fd_sc_hd__dfstp_2".
+Reading "KW_sky130_fd_sc_hd__inv_4".
+Reading "KW_sky130_fd_sc_hd__or2_2".
+Reading "KW_sky130_fd_sc_hd__a22o_4".
+Reading "KW_sky130_fd_sc_hd__buf_6".
+Reading "KW_sky130_fd_sc_hd__nand2_2".
+Reading "KW_sky130_fd_sc_hd__xor2_2".
+Reading "KW_sky130_fd_sc_hd__a2bb2o_4".
+Reading "KW_sky130_fd_sc_hd__a22o_2".
+Reading "KW_sky130_fd_sc_hd__nor2_2".
+Reading "KW_sky130_fd_sc_hd__mux2_4".
+Reading "KW_sky130_fd_sc_hd__dfxtp_2".
+Reading "KW_sky130_fd_sc_hd__or2_4".
+Reading "KW_sky130_fd_sc_hd__or4b_4".
+Reading "KW_sky130_fd_sc_hd__or4_4".
+Reading "KW_sky130_fd_sc_hd__a21oi_2".
+Reading "KW_sky130_fd_sc_hd__and4_2".
+Reading "KW_sky130_fd_sc_hd__nand3b_2".
+Reading "KW_sky130_fd_sc_hd__a21bo_2".
+Reading "KW_sky130_fd_sc_hd__clkbuf_16".
+Reading "KW_sky130_fd_sc_hd__xnor2_4".
+Reading "KW_sky130_fd_sc_hd__a31o_2".
+Reading "project_macro_3_1".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+    225000 uses
+    230000 uses
+    235000 uses
+    240000 uses
+    245000 uses
+Reading "EK_sky130_fd_sc_hd__decap_3".
+Reading "EK_sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "EK_sky130_fd_sc_hd__fill_1".
+Reading "EK_sky130_fd_sc_hd__buf_4".
+Reading "EK_sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "EK_sky130_fd_sc_hd__fill_2".
+Reading "EK_sky130_fd_sc_hd__buf_12".
+Reading "EK_sky130_fd_sc_hd__conb_1".
+Reading "EK_sky130_fd_sc_hd__buf_2".
+Reading "EK_sky130_fd_sc_hd__and3_2".
+Reading "EK_sky130_fd_sc_hd__o21a_2".
+Reading "EK_sky130_fd_sc_hd__xnor2_2".
+Reading "EK_sky130_fd_sc_hd__buf_1".
+Reading "EK_sky130_fd_sc_hd__and2_2".
+Reading "EK_sky130_fd_sc_hd__a21o_2".
+Reading "EK_sky130_fd_sc_hd__dfrtp_2".
+Reading "EK_sky130_fd_sc_hd__clkbuf_4".
+Reading "EK_sky130_fd_sc_hd__mux2_1".
+Reading "EK_sky130_fd_sc_hd__mux4_2".
+Reading "EK_sky130_fd_sc_hd__clkbuf_1".
+Reading "EK_sky130_fd_sc_hd__clkbuf_8".
+Reading "EK_sky130_fd_sc_hd__bufinv_16".
+Reading "EK_sky130_fd_sc_hd__clkinv_2".
+Reading "EK_sky130_fd_sc_hd__clkbuf_2".
+Reading "EK_sky130_fd_sc_hd__diode_2".
+Reading "EK_sky130_fd_sc_hd__inv_6".
+Reading "EK_sky130_fd_sc_hd__inv_2".
+Reading "EK_sky130_fd_sc_hd__dfstp_2".
+Reading "EK_sky130_fd_sc_hd__inv_4".
+Reading "EK_sky130_fd_sc_hd__or2_2".
+Reading "EK_sky130_fd_sc_hd__a22o_4".
+Reading "EK_sky130_fd_sc_hd__buf_6".
+Reading "EK_sky130_fd_sc_hd__nand2_2".
+Reading "EK_sky130_fd_sc_hd__xor2_2".
+Reading "EK_sky130_fd_sc_hd__a2bb2o_4".
+Reading "EK_sky130_fd_sc_hd__a22o_2".
+Reading "EK_sky130_fd_sc_hd__nor2_2".
+Reading "EK_sky130_fd_sc_hd__mux2_4".
+Reading "EK_sky130_fd_sc_hd__dfxtp_2".
+Reading "EK_sky130_fd_sc_hd__or2_4".
+Reading "EK_sky130_fd_sc_hd__or4b_4".
+Reading "EK_sky130_fd_sc_hd__or4_4".
+Reading "EK_sky130_fd_sc_hd__a21oi_2".
+Reading "EK_sky130_fd_sc_hd__and4_2".
+Reading "EK_sky130_fd_sc_hd__nand3b_2".
+Reading "EK_sky130_fd_sc_hd__a21bo_2".
+Reading "EK_sky130_fd_sc_hd__clkbuf_16".
+Reading "EK_sky130_fd_sc_hd__xnor2_4".
+Reading "EK_sky130_fd_sc_hd__a31o_2".
+Reading "project_macro_3_2".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+    225000 uses
+    230000 uses
+    235000 uses
+    240000 uses
+    245000 uses
+Reading "sky130_fd_sc_hd__o221a_2".
+Reading "sky130_fd_sc_hd__and2b_4".
+Reading "sky130_fd_sc_hd__a21bo_2".
+Reading "sky130_fd_sc_hd__o21a_4".
+Reading "sky130_fd_sc_hd__a221o_4".
+Reading "sky130_fd_sc_hd__nand2_8".
+Reading "sky130_fd_sc_hd__o221a_4".
+Reading "sky130_fd_sc_hd__o21a_2".
+Reading "vccd1_connection".
+Reading "openframe_project_wrapper".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+    225000 uses
+    230000 uses
+    235000 uses
+    240000 uses
+    245000 uses
+    250000 uses
+    255000 uses
+    260000 uses
+    265000 uses
+    270000 uses
+    275000 uses
+    280000 uses
+    285000 uses
+    290000 uses
+    295000 uses
+    300000 uses
+    305000 uses
+    310000 uses
+    315000 uses
+    320000 uses
+    325000 uses
+    330000 uses
+    335000 uses
+    340000 uses
+    345000 uses
+    350000 uses
+    355000 uses
+    360000 uses
+    365000 uses
+    370000 uses
+    375000 uses
+    380000 uses
+    385000 uses
+    390000 uses
+    395000 uses
+    400000 uses
+    405000 uses
+    410000 uses
+    415000 uses
+    420000 uses
+    425000 uses
+    430000 uses
+    435000 uses
+    440000 uses
+    445000 uses
+    450000 uses
+    455000 uses
+    460000 uses
+    465000 uses
+    470000 uses
+    475000 uses
+    480000 uses
+    485000 uses
+    490000 uses
+    495000 uses
+    500000 uses
+    505000 uses
+    510000 uses
+    515000 uses
+    520000 uses
+    525000 uses
+    530000 uses
+    535000 uses
+    540000 uses
+    545000 uses
+    550000 uses
+    555000 uses
+    560000 uses
+    565000 uses
+    570000 uses
+    575000 uses
+    580000 uses
+    585000 uses
+    590000 uses
+    595000 uses
+    600000 uses
+    605000 uses
+    610000 uses
+    615000 uses
+    620000 uses
+    625000 uses
+    630000 uses
+    635000 uses
+    640000 uses
+    645000 uses
+    650000 uses
+    655000 uses
+    660000 uses
+    665000 uses
+    670000 uses
+    675000 uses
+    680000 uses
+    685000 uses
+    690000 uses
+    695000 uses
+    700000 uses
+    705000 uses
+    710000 uses
+    715000 uses
+    720000 uses
+    725000 uses
+    730000 uses
+    735000 uses
+    740000 uses
+    745000 uses
+    750000 uses
+    755000 uses
+    760000 uses
+    765000 uses
+    770000 uses
+    775000 uses
+    780000 uses
+    785000 uses
+    790000 uses
+    795000 uses
+    800000 uses
+    805000 uses
+    810000 uses
+    815000 uses
+    820000 uses
+    825000 uses
+    830000 uses
+Creating layout hierarchy in /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/tmp/ext/openframe_project_wrapper.hier...
+awk: /usr/local/lib/python3.9/site-packages/cf_precheck/be_checks/scripts/ext.hier.awk:2: fatal: cannot open file `/tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/tmp/ext/*.ext' for reading: No such file or directory
+
+Error: extraction did not complete successfully
+
+Error: extraction did not complete successfully
+DESIGN NAME: openframe_project_wrapper
+WORK_ROOT   : /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/tmp
+LOG_ROOT    : /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/logs
+SIGNOFF_ROOT: /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/outputs/reports
+ 
+Running CVC...
+Could not create cdl file from /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/outputs/reports/openframe_project_wrapper.gds.spice.gz
+
+LVS result:
+tail: cannot open '/tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/logs/lvs.log' for reading: No such file or directory
+LVS problem: check the following files
+/tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/logs/ext.log
+/tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/logs/lvs.log
+/tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/outputs/reports/lvs.report
+
+Runtime: 0:10:07 (hh:mm:ss)
+
+WARNING: possible errors SOFT - LVS 4 CVC 2 OEB -

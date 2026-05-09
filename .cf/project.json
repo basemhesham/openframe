@@ -1,17 +1,19 @@
 {
   "precheck": {
     "version": "1.3.3",
-    "timestamp": "2026-05-09T07:44:05.434530+00:00",
+    "timestamp": "2026-05-09T08:04:56.749818+00:00",
     "pdk": "sky130A",
-    "passed": true,
+    "passed": false,
     "checks": {
-      "topcell_check": {
-        "status": "pass",
-        "duration_s": 11.02
+      "xor": {
+        "status": "fail",
+        "duration_s": 301.36,
+        "details": "XOR total file not found: /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/logs/xor_check.total"
       },
-      "illegal_cellname_check": {
-        "status": "pass",
-        "duration_s": 15.53
+      "lvs": {
+        "status": "fail",
+        "duration_s": 607.6,
+        "details": "LVS FAILED (stat=1), see /tmp/tmplp50_0bl/repo/precheck_results/09_MAY_2026___07_49_41/logs/LVS_check.log"
       },
       "magic_drc": {
         "status": "skip",
