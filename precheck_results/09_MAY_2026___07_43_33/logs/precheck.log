@@ -1,0 +1,8 @@
+2026-05-09 07:43:33 [INFO] Extracting compressed files in: /tmp/tmps5qz6859/repo
+2026-05-09 07:43:36 [INFO] make uncompress produced 3 gds/*.gds file(s): openframe_project_wrapper.gds, vccd1_connection.gds, vssd1_connection.gds (make exit 0)
+2026-05-09 07:43:36 [INFO] Project type: openframe
+2026-05-09 07:43:37 [INFO] GDS hash (openframe_project_wrapper): bf8a78110028f44147f2d29e3903c493368b386c
+2026-05-09 07:43:37 [INFO] Tools: KLayout v0.29.2 | Magic v8.3.471
+2026-05-09 07:43:37 [INFO] PDK: SKY130A unknown
+2026-05-09 07:43:38 [INFO] Running 2 checks: [topcell_check, illegal_cellname_check]
+2026-05-09 07:43:49 [INFO] Single top cell 'openframe_project_wrapper' found

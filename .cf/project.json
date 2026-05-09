@@ -1,0 +1,24 @@
+{
+  "precheck": {
+    "version": "1.3.3",
+    "timestamp": "2026-05-09T07:44:05.434530+00:00",
+    "pdk": "sky130A",
+    "passed": true,
+    "checks": {
+      "topcell_check": {
+        "status": "pass",
+        "duration_s": 11.02
+      },
+      "illegal_cellname_check": {
+        "status": "pass",
+        "duration_s": 15.53
+      },
+      "magic_drc": {
+        "status": "skip",
+        "duration_s": 0,
+        "reason": "optional (use --magic-drc to include)"
+      }
+    },
+    "input_file_hash": "bf8a78110028f44147f2d29e3903c493368b386c"
+  }
+}
