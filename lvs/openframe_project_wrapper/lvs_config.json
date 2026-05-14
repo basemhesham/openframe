@@ -31,6 +31,18 @@
 	"LVS_VERILOG_FILES": [
 		"$UPRJ_ROOT/verilog/gl/vccd1_connection.v",
 		"$UPRJ_ROOT/verilog/gl/vssd1_connection.v",
+		"$UPRJ_ROOT/verilog/gl/project_macro_0_0.v",
+		"$UPRJ_ROOT/verilog/gl/project_macro_0_1.v",
+		"$UPRJ_ROOT/verilog/gl/project_macro_0_2.v",
+		"$UPRJ_ROOT/verilog/gl/project_macro_1_0.v",
+		"$UPRJ_ROOT/verilog/gl/project_macro_1_1.v",
+		"$UPRJ_ROOT/verilog/gl/project_macro_1_2.v",
+		"$UPRJ_ROOT/verilog/gl/project_macro_2_0.v",
+		"$UPRJ_ROOT/verilog/gl/project_macro_2_1.v",
+		"$UPRJ_ROOT/verilog/gl/project_macro_2_2.v",
+		"$UPRJ_ROOT/verilog/gl/project_macro_3_0.v",
+		"$UPRJ_ROOT/verilog/gl/project_macro_3_1.v",
+         	"$UPRJ_ROOT/verilog/gl/project_macro_3_2.v",
 		"$UPRJ_ROOT/verilog/gl/openframe_project_wrapper.v"
 	],
 	"LAYOUT_FILE": "$UPRJ_ROOT/gds/$TOP_LAYOUT.gds"
