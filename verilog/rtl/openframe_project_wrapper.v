@@ -111,6 +111,25 @@ module openframe_project_wrapper #(
     wire por_n       = porb_l;
     wire sys_clk     = gpio_in[38];
     wire sys_reset_n = gpio_in[39];
+    wire scan_clk    = gpio_in[40];
+    wire masterrst_n;
+    wire scan_masterrst_n;
+
+    // Synchronize system reset deassertion to sys_clk while preserving
+    // immediate asynchronous assertion from the external reset pad.
+    reset_synchronizer u_reset_sync (
+        .masterrst_n(masterrst_n),
+        .clk        (sys_clk),
+        .rst_n      (sys_reset_n)
+    );
+
+    // Scan controller runs from scan_clk, so it gets its own reset release
+    // synchronized to that clock domain.
+    reset_synchronizer u_scan_reset_sync (
+        .masterrst_n(scan_masterrst_n),
+        .clk        (scan_clk),
+        .rst_n      (sys_reset_n)
+    );
 
     // =========================================================================
     // 3. Scan Controller
@@ -120,8 +139,8 @@ module openframe_project_wrapper #(
 
     scan_controller_macro #(.MAGIC_WORD(MAGIC_WORD)) u_scan_ctrl (
         .por_n           (por_n),
-        .sys_reset_n     (sys_reset_n),
-        .pad_scan_clk    (gpio_in[40]),
+        .sys_reset_n     (scan_masterrst_n),
+        .pad_scan_clk    (scan_clk),
         .pad_scan_din    (gpio_in[41]),
         .pad_scan_latch  (gpio_in[42]),
         .pad_scan_dout   (scan_dout_wire),
@@ -154,7 +173,7 @@ module openframe_project_wrapper #(
     generate
         for (c = 0; c < COLS; c = c + 1) begin : gen_clk_col_init
             assign gclk[c][0] = sys_clk;
-            assign grst[c][0] = sys_reset_n;
+            assign grst[c][0] = masterrst_n;
         end
     endgenerate
 
@@ -217,6 +236,27 @@ module openframe_project_wrapper #(
     // Since the wrapper doesn't drive those inputs, they default to 0 via the
     // generate block's wire declarations (undriven wires = 0 in simulation).
 
+`define PROJ_PORTS \
+                `ifdef USE_POWER_PINS \
+                    .vccd1       (vccd1),        \
+                    .vssd1       (vssd1),        \
+                `endif \
+                    .clk         (proj_clk),          \
+                    .reset_n     (proj_rst_n),         \
+                    .por_n       (proj_por_n),         \
+                    .gpio_bot_in (proj_bot_in),        \
+                    .gpio_bot_out(proj_bot_out),       \
+                    .gpio_bot_oeb(proj_bot_oeb),       \
+                    .gpio_bot_dm (proj_bot_dm),        \
+                    .gpio_rt_in  (proj_rt_in_full[8:0]),\
+                    .gpio_rt_out (proj_rt_out),        \
+                    .gpio_rt_oeb (proj_rt_oeb),        \
+                    .gpio_rt_dm  (proj_rt_dm),         \
+                    .gpio_top_in (proj_top_in_full[13:0]),\
+                    .gpio_top_out(proj_top_out),       \
+                    .gpio_top_oeb(proj_top_oeb),       \
+                    .gpio_top_dm (proj_top_dm)
+                    
     localparam SC_GRID_BASE = 3; // After Purple Left(0), Top(1), Right(2)
 
     generate
@@ -234,7 +274,7 @@ module openframe_project_wrapper #(
                 localparam integer SC_BASE = SC_GRID_BASE + PROJ_IDX * NODES_PER_PROJ;
 
                 // Project wires
-                wire        proj_clk, proj_rst_n, proj_por_n;
+                wire        proj_clk, proj_rst_n_raw, proj_rst_n, proj_por_n;
                 wire [14:0] proj_bot_in, proj_bot_out, proj_bot_oeb;
                 wire [44:0] proj_bot_dm;
                 wire [14:0] proj_rt_in_full;
@@ -270,7 +310,7 @@ module openframe_project_wrapper #(
                     .sys_clk_out     (gclk[c][r+1]),
                     .sys_reset_n_out (grst[c][r+1]),
                     .proj_clk_out    (proj_clk),
-                    .proj_reset_n_out(proj_rst_n),
+                    .proj_reset_n_out(proj_rst_n_raw),
                     .proj_por_n_out  (proj_por_n),
                     .por_n           (por_n),
                     // Scan in from south side
@@ -287,6 +327,16 @@ module openframe_project_wrapper #(
                     .scan_clk_out_n  (sc_clk[SC_BASE+1]),
                     .scan_latch_out_n(sc_lat[SC_BASE+1]),
                     .scan_out_n      (sc_dat[SC_BASE+1])
+                );
+
+                // Green gates reset with proj_en; synchronize that final
+                // project reset on the ungated local source clock. Keeping
+                // these flops off proj_clk avoids CTS register/macro split
+                // buffers on every gated project clock subtree.
+                reset_synchronizer u_proj_reset_sync (
+                    .masterrst_n(proj_rst_n),
+                    .clk        (gclk[c][r]),
+                    .rst_n      (proj_rst_n_raw)
                 );
 
                 // =============================================================
@@ -310,7 +360,7 @@ module openframe_project_wrapper #(
                     .scan_latch_out_e    (sc_lat[SC_BASE+2]),
                     .scan_out_e          (sc_dat[SC_BASE+2]),
                     // GPIO
-                    .pad_side_gpio_in    (bot_in[r][c+1]),
+                    .pad_side_gpio_in    (bot_in[r][COLS]),
                     .pad_side_gpio_out   (bot_out[r][c+1]),
                     .pad_side_gpio_oeb   (bot_oeb[r][c+1]),
                     .pad_side_gpio_dm    (bot_dm[r][c+1]),
@@ -345,7 +395,7 @@ module openframe_project_wrapper #(
                     .scan_latch_out_e    (sc_lat[SC_BASE+3]),
                     .scan_out_e          (sc_dat[SC_BASE+3]),
                     // GPIO
-                    .pad_side_gpio_in    (rt_in[c][r+1]),
+                    .pad_side_gpio_in    (rt_in[c][ROWS]),
                     .pad_side_gpio_out   (rt_out[c][r+1]),
                     .pad_side_gpio_oeb   (rt_oeb[c][r+1]),
                     .pad_side_gpio_dm    (rt_dm[c][r+1]),
@@ -382,7 +432,7 @@ module openframe_project_wrapper #(
                     .scan_latch_out_e    (),
                     .scan_out_e          (),
                     // GPIO
-                    .pad_side_gpio_in    (top_in[r][TOP_CP+1]),
+                    .pad_side_gpio_in    (top_in[r][COLS]),
                     .pad_side_gpio_out   (top_out[r][TOP_CP+1]),
                     .pad_side_gpio_oeb   (top_oeb[r][TOP_CP+1]),
                     .pad_side_gpio_dm    (top_dm[r][TOP_CP+1]),
@@ -399,29 +449,8 @@ module openframe_project_wrapper #(
                 // =============================================================
                 // Project Macro
                 // =============================================================
-                 
-`define PROJ_PORTS \
-                `ifdef USE_POWER_PINS \
-                    .vccd1       (vccd1),        \
-                    .vssd1       (vssd1),        \
-                `endif \
-                    .clk         (proj_clk),          \
-                    .reset_n     (proj_rst_n),         \
-                    .por_n       (proj_por_n),         \
-                    .gpio_bot_in (proj_bot_in),        \
-                    .gpio_bot_out(proj_bot_out),       \
-                    .gpio_bot_oeb(proj_bot_oeb),       \
-                    .gpio_bot_dm (proj_bot_dm),        \
-                    .gpio_rt_in  (proj_rt_in_full[8:0]),\
-                    .gpio_rt_out (proj_rt_out),        \
-                    .gpio_rt_oeb (proj_rt_oeb),        \
-                    .gpio_rt_dm  (proj_rt_dm),         \
-                    .gpio_top_in (proj_top_in_full[13:0]),\
-                    .gpio_top_out(proj_top_out),       \
-                    .gpio_top_oeb(proj_top_oeb),       \
-                    .gpio_top_dm (proj_top_dm)
-                    
-                                     
+                
+                                                         
             begin : gen_proj
             case ({2'(r), 2'(c)}) 
                     {2'd0, 2'd0}: project_macro_0_0 u_proj (`PROJ_PORTS);
@@ -650,5 +679,25 @@ end
     // =========================================================================
     (* keep *) vccd1_connection vccd1_connection ();
     (* keep *) vssd1_connection vssd1_connection ();
+
+endmodule
+
+// Active-low reset synchronizer.
+// Assertion is asynchronous through rst_n; deassertion is released after two
+// clk edges so downstream synchronous logic leaves reset on a clock boundary.
+module reset_synchronizer (
+    output reg masterrst_n,
+    input  wire clk,
+    input  wire rst_n
+);
+
+    reg rff1;
+
+    always @(posedge clk or negedge rst_n) begin
+        if (!rst_n)
+            {masterrst_n, rff1} <= 2'b00;
+        else
+            {masterrst_n, rff1} <= {rff1, 1'b1};
+    end
 
 endmodule
